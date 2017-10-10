@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="D:/CS/CPU/test_CPU_isim_beh.wdb" id="1" type="auto">
+         <top_modules>
+            <top_module name="std_logic_1164" />
+            <top_module name="std_logic_arith" />
+            <top_module name="std_logic_unsigned" />
+            <top_module name="test_cpu" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="27" />
+   <wvobject fp_name="/test_cpu/reset" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">reset</obj_property>
+      <obj_property name="ObjectShortName">reset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_cpu/clk" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_cpu/uut/t0" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">t0</obj_property>
+      <obj_property name="ObjectShortName">t0</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_cpu/uut/t1" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">t1</obj_property>
+      <obj_property name="ObjectShortName">t1</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_cpu/uut/t2" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">t2</obj_property>
+      <obj_property name="ObjectShortName">t2</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_cpu/uut/t3" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">t3</obj_property>
+      <obj_property name="ObjectShortName">t3</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_cpu/dbus" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">dbus[15:0]</obj_property>
+      <obj_property name="ObjectShortName">dbus[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_cpu/iodb" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">iodb[7:0]</obj_property>
+      <obj_property name="ObjectShortName">iodb[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_cpu/abus" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">abus[15:0]</obj_property>
+      <obj_property name="ObjectShortName">abus[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_cpu/ioab" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">ioab[1:0]</obj_property>
+      <obj_property name="ObjectShortName">ioab[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_cpu/nmreq" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">nmreq</obj_property>
+      <obj_property name="ObjectShortName">nmreq</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_cpu/nrd" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">nrd</obj_property>
+      <obj_property name="ObjectShortName">nrd</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_cpu/nwr" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">nwr</obj_property>
+      <obj_property name="ObjectShortName">nwr</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_cpu/nbhe" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">nbhe</obj_property>
+      <obj_property name="ObjectShortName">nbhe</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_cpu/nble" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">nble</obj_property>
+      <obj_property name="ObjectShortName">nble</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_cpu/npreq" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">npreq</obj_property>
+      <obj_property name="ObjectShortName">npreq</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_cpu/nprd" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">nprd</obj_property>
+      <obj_property name="ObjectShortName">nprd</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_cpu/npwr" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">npwr</obj_property>
+      <obj_property name="ObjectShortName">npwr</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_cpu/regout0" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">regout0[7:0]</obj_property>
+      <obj_property name="ObjectShortName">regout0[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_cpu/regout1" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">regout1[7:0]</obj_property>
+      <obj_property name="ObjectShortName">regout1[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_cpu/regout2" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">regout2[7:0]</obj_property>
+      <obj_property name="ObjectShortName">regout2[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_cpu/regout3" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">regout3[7:0]</obj_property>
+      <obj_property name="ObjectShortName">regout3[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_cpu/regout4" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">regout4[7:0]</obj_property>
+      <obj_property name="ObjectShortName">regout4[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_cpu/regout5" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">regout5[7:0]</obj_property>
+      <obj_property name="ObjectShortName">regout5[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_cpu/regout6" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">regout6[7:0]</obj_property>
+      <obj_property name="ObjectShortName">regout6[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_cpu/regout7" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">regout7[7:0]</obj_property>
+      <obj_property name="ObjectShortName">regout7[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_cpu/clk_period" type="other" db_ref_id="1">
+      <obj_property name="ElementShortName">clk_period</obj_property>
+      <obj_property name="ObjectShortName">clk_period</obj_property>
+   </wvobject>
+</wave_config>

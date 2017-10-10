@@ -1,0 +1,7 @@
+work	"CLOCK_CPU.vhd"
+work	"CPU.vhd"
+work	"GETIR.vhd"
+work	"compute.vhd"
+work	"memcontrl.vhd"
+work	"memory.vhd"
+work	"writeback.vhd"

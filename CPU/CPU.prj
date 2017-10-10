@@ -1,0 +1,7 @@
+vhdl work "writeback.vhd"
+vhdl work "memory.vhd"
+vhdl work "memcontrl.vhd"
+vhdl work "GETIR.vhd"
+vhdl work "compute.vhd"
+vhdl work "CLOCK_CPU.vhd"
+vhdl work "CPU.vhd"

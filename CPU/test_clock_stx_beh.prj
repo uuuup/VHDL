@@ -1,0 +1,2 @@
+vhdl isim_temp "CLOCK_CPU.vhd"
+vhdl isim_temp "test_clock.vhd"

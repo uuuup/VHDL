@@ -1,0 +1,131 @@
+
+
+NET "CLK"  LOC = "P75"  ; 
+
+
+
+
+NET "nBHE"  LOC = "P138"  ;
+
+NET "nBLE"  LOC = "P137"  ;
+
+NET "nMREQ"  LOC = "P168"  ;
+
+NET "nRD"  LOC = "P139"  ;
+
+NET "nWR"  LOC = "P152"  ;
+
+
+NET "reset" loc="p74";
+
+// a0
+NET "npreq"  LOC = "P102"  ; 
+NET "nprd"  LOC = "P100"  ;
+NET "npwr"  LOC = "P99"  ;
+net  "t00"   loc="p83";
+net  "t10"   loc="p82";
+net  "t20"   loc="p77";
+net  "t30"   loc="p185";
+//sentences below are describing IO
+
+
+NET "abus<0>"  LOC = "P179"  ; 
+NET "abus<1>"  LOC = "P178"  ; 
+NET "abus<2>"  LOC = "P177"  ; 
+NET "abus<3>"  LOC = "P172"  ; 
+NET "abus<4>"  LOC = "P171"  ; 
+NET "abus<5>"  LOC = "P151"  ; 
+NET "abus<6>"  LOC = "P150"  ; 
+NET "abus<7>"  LOC = "P147"  ; 
+NET "abus<8>"  LOC = "P146"  ; 
+NET "abus<9>"  LOC = "P113"  ; 
+NET "abus<10>"  LOC = "P115"  ; 
+NET "abus<11>"  LOC = "P116"  ; 
+NET "abus<12>"  LOC = "P119"  ; 
+NET "abus<13>"  LOC = "P140"  ; 
+NET "abus<14>"  LOC = "P144"  ; 
+NET "abus<15>"  LOC = "P145"  ; 
+//s4
+//NET "aluout<0>"  LOC = "P60"  ; 
+//NET "aluout<1>"  LOC = "P61"  ; 
+//NET "aluout<2>"  LOC = "P62"  ; 
+//NET "aluout<3>"  LOC = "P63"  ; 
+//NET "aluout<4>"  LOC = "P2"  ; 
+//NET "aluout<5>"  LOC = "P108"  ; 
+//NET "aluout<6>"  LOC = "P109"  ; 
+//NET "aluout<7>"  LOC = "P112"  ; 
+
+
+//NET "rdata<0>"  LOC = "P126"  ; 
+//NET "rdata<1>"  LOC = "P127"  ; 
+//NET "rdata<2>"  LOC = "P129"  ; 
+//NET "rdata<3>"  LOC = "P202"  ; 
+//NET "rdata<4>"  LOC = "P203"  ; 
+//NET "rdata<5>"  LOC = "P205"  ; 
+//NET "rdata<6>"  LOC = "P206"  ; 
+//NET "rdata<7>"  LOC = "P103"  ; 
+
+//k0
+NET "iodbin<0>"  LOC = "P154"  ; 
+NET "iodbin<1>"  LOC = "P148"  ; 
+NET "iodbin<2>"  LOC = "P142"  ; 
+NET "iodbin<3>"  LOC = "P136"  ; 
+NET "iodbin<4>"  LOC = "P130"  ; 
+NET "iodbin<5>"  LOC = "P124"  ; 
+NET "iodbin<6>"  LOC = "P118"  ; 
+NET "iodbin<7>"  LOC = "P110"  ; 
+
+
+//s0
+NET "iodbout<0>"  LOC = "P4"  ; 
+NET "iodbout<1>"  LOC = "P5"  ; 
+NET "iodbout<2>"  LOC = "P8"  ; 
+NET "iodbout<3>"  LOC = "P9"  ; 
+NET "iodbout<4>"  LOC = "P11"  ; 
+NET "iodbout<5>"  LOC = "P12"  ; 
+NET "iodbout<6>"  LOC = "P15"  ; 
+NET "iodbout<7>"  LOC = "P16"  ; 
+ 
+
+NET "dbus<0>"  LOC = "P167"  ; 
+NET "dbus<1>"  LOC = "P165"  ; 
+NET "dbus<2>"  LOC = "P164"  ; 
+NET "dbus<3>"  LOC = "P163"  ; 
+NET "dbus<4>"  LOC = "P162"  ; 
+NET "dbus<5>"  LOC = "P161"  ; 
+NET "dbus<6>"  LOC = "P160"  ; 
+NET "dbus<7>"  LOC = "P153"  ; 
+NET "dbus<8>"  LOC = "P120"  ; 
+NET "dbus<9>"  LOC = "P122"  ; 
+NET "dbus<10>"  LOC = "P123"  ; 
+NET "dbus<11>"  LOC = "P128"  ; 
+NET "dbus<12>"  LOC = "P132"  ; 
+NET "dbus<13>"  LOC = "P133"  ; 
+NET "dbus<14>"  LOC = "P134"  ; 
+NET "dbus<15>"  LOC = "P135"  ; 
+
+//s5
+NET "regout1<0>"  LOC = "P126"  ; 
+NET "regout1<1>"  LOC = "P127"  ; 
+NET "regout1<2>"  LOC = "P129"  ; 
+NET "regout1<3>"  LOC = "P202"  ; 
+NET "regout1<4>"  LOC = "P203"  ; 
+NET "regout1<5>"  LOC = "P205"  ; 
+NET "regout1<6>"  LOC = "P206"  ; 
+NET "regout1<7>"  LOC = "P103"  ; 
+
+//s3
+NET "regout2<0>"  LOC = "P42"  ; 
+NET "regout2<1>"  LOC = "P45"  ; 
+NET "regout2<2>"  LOC = "P47"  ; 
+NET "regout2<3>"  LOC = "P48"  ; 
+NET "regout2<4>"  LOC = "P49"  ; 
+NET "regout2<5>"  LOC = "P50"  ; 
+NET "regout2<6>"  LOC = "P55"  ; 
+NET "regout2<7>"  LOC = "P56"  ; 
+
+
+
+
+
+//sentences below are describing IO

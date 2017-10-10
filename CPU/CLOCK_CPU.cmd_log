@@ -1,0 +1,511 @@
+xst -intstyle ise -ifn "D:/CS/CPU/CLOCK_CPU.xst" -ofn "D:/CS/CPU/CLOCK_CPU.syr" 
+xst -intstyle ise -ifn "D:/CS/CPU/CLOCK_CPU.xst" -ofn "D:/CS/CPU/CLOCK_CPU.syr" 
+xst -intstyle ise -ifn "D:/CS/CPU/CLOCK_CPU.xst" -ofn "D:/CS/CPU/CLOCK_CPU.syr" 
+xst -intstyle ise -ifn "D:/CS/CPU/CLOCK_CPU.xst" -ofn "D:/CS/CPU/CLOCK_CPU.syr" 
+xst -intstyle ise -ifn "D:/CS/CPU/CLOCK_CPU.xst" -ofn "D:/CS/CPU/CLOCK_CPU.syr" 
+xst -intstyle ise -ifn "D:/CS/CPU/CLOCK_CPU.xst" -ofn "D:/CS/CPU/CLOCK_CPU.syr" 
+xst -intstyle ise -ifn "D:/CS/CPU/CLOCK_CPU.xst" -ofn "D:/CS/CPU/CLOCK_CPU.syr" 
+xst -intstyle ise -ifn "D:/CS/CPU/CLOCK_CPU.xst" -ofn "D:/CS/CPU/CLOCK_CPU.syr" 
+xst -intstyle ise -ifn "D:/CS/CPU/CLOCK_CPU.xst" -ofn "D:/CS/CPU/CLOCK_CPU.syr" 
+xst -intstyle ise -ifn "D:/CS/CPU/CLOCK_CPU.xst" -ofn "D:/CS/CPU/CLOCK_CPU.syr" 
+xst -intstyle ise -ifn "D:/CS/CPU/CLOCK_CPU.xst" -ofn "D:/CS/CPU/CLOCK_CPU.syr" 
+xst -intstyle ise -ifn "D:/CS/CPU/CLOCK_CPU.xst" -ofn "D:/CS/CPU/CLOCK_CPU.syr" 
+xst -intstyle ise -ifn "D:/CS/CPU/CLOCK_CPU.xst" -ofn "D:/CS/CPU/CLOCK_CPU.syr" 
+xst -intstyle ise -ifn "D:/CS/CPU/CLOCK_CPU.xst" -ofn "D:/CS/CPU/CLOCK_CPU.syr" 
+xst -intstyle ise -ifn "D:/CS/CPU/CLOCK_CPU.xst" -ofn "D:/CS/CPU/CLOCK_CPU.syr" 
+xst -intstyle ise -ifn "D:/CS/CPU/CLOCK_CPU.xst" -ofn "D:/CS/CPU/CLOCK_CPU.syr" 
+xst -intstyle ise -ifn "D:/CS/CPU/CLOCK_CPU.xst" -ofn "D:/CS/CPU/CLOCK_CPU.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx16-csg324-3 CLOCK_CPU.ngc CLOCK_CPU.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o CLOCK_CPU_map.ncd CLOCK_CPU.ngd CLOCK_CPU.pcf 
+par -w -intstyle ise -ol high -mt off CLOCK_CPU_map.ncd CLOCK_CPU.ncd CLOCK_CPU.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml CLOCK_CPU.twx CLOCK_CPU.ncd -o CLOCK_CPU.twr CLOCK_CPU.pcf 
+xst -intstyle ise -ifn "D:/CS/CPU/CLOCK_CPU.xst" -ofn "D:/CS/CPU/CLOCK_CPU.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx16-csg324-3 CLOCK_CPU.ngc CLOCK_CPU.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o CLOCK_CPU_map.ncd CLOCK_CPU.ngd CLOCK_CPU.pcf 
+par -w -intstyle ise -ol high -mt off CLOCK_CPU_map.ncd CLOCK_CPU.ncd CLOCK_CPU.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml CLOCK_CPU.twx CLOCK_CPU.ncd -o CLOCK_CPU.twr CLOCK_CPU.pcf 
+xst -intstyle ise -ifn "D:/CS/CPU/CLOCK_CPU.xst" -ofn "D:/CS/CPU/CLOCK_CPU.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx16-csg324-3 CLOCK_CPU.ngc CLOCK_CPU.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o CLOCK_CPU_map.ncd CLOCK_CPU.ngd CLOCK_CPU.pcf 
+par -w -intstyle ise -ol high -mt off CLOCK_CPU_map.ncd CLOCK_CPU.ncd CLOCK_CPU.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml CLOCK_CPU.twx CLOCK_CPU.ncd -o CLOCK_CPU.twr CLOCK_CPU.pcf 
+xst -intstyle ise -ifn "D:/CS/CPU/CLOCK_CPU.xst" -ofn "D:/CS/CPU/CLOCK_CPU.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx16-csg324-3 CLOCK_CPU.ngc CLOCK_CPU.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o CLOCK_CPU_map.ncd CLOCK_CPU.ngd CLOCK_CPU.pcf 
+par -w -intstyle ise -ol high -mt off CLOCK_CPU_map.ncd CLOCK_CPU.ncd CLOCK_CPU.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml CLOCK_CPU.twx CLOCK_CPU.ncd -o CLOCK_CPU.twr CLOCK_CPU.pcf 
+xst -intstyle ise -ifn "D:/CS/CPU/CLOCK_CPU.xst" -ofn "D:/CS/CPU/CLOCK_CPU.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx16-csg324-3 CLOCK_CPU.ngc CLOCK_CPU.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o CLOCK_CPU_map.ncd CLOCK_CPU.ngd CLOCK_CPU.pcf 
+par -w -intstyle ise -ol high -mt off CLOCK_CPU_map.ncd CLOCK_CPU.ncd CLOCK_CPU.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml CLOCK_CPU.twx CLOCK_CPU.ncd -o CLOCK_CPU.twr CLOCK_CPU.pcf 
+xst -intstyle ise -ifn "D:/CS/CPU/CLOCK_CPU.xst" -ofn "D:/CS/CPU/CLOCK_CPU.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx16-csg324-3 CLOCK_CPU.ngc CLOCK_CPU.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o CLOCK_CPU_map.ncd CLOCK_CPU.ngd CLOCK_CPU.pcf 
+par -w -intstyle ise -ol high -mt off CLOCK_CPU_map.ncd CLOCK_CPU.ncd CLOCK_CPU.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml CLOCK_CPU.twx CLOCK_CPU.ncd -o CLOCK_CPU.twr CLOCK_CPU.pcf 
+xst -intstyle ise -ifn "D:/CS/CPU/CLOCK_CPU.xst" -ofn "D:/CS/CPU/CLOCK_CPU.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx16-csg324-3 CLOCK_CPU.ngc CLOCK_CPU.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o CLOCK_CPU_map.ncd CLOCK_CPU.ngd CLOCK_CPU.pcf 
+par -w -intstyle ise -ol high -mt off CLOCK_CPU_map.ncd CLOCK_CPU.ncd CLOCK_CPU.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml CLOCK_CPU.twx CLOCK_CPU.ncd -o CLOCK_CPU.twr CLOCK_CPU.pcf 
+xst -intstyle ise -ifn "D:/CS/CPU/CLOCK_CPU.xst" -ofn "D:/CS/CPU/CLOCK_CPU.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx16-csg324-3 CLOCK_CPU.ngc CLOCK_CPU.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o CLOCK_CPU_map.ncd CLOCK_CPU.ngd CLOCK_CPU.pcf 
+par -w -intstyle ise -ol high -mt off CLOCK_CPU_map.ncd CLOCK_CPU.ncd CLOCK_CPU.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml CLOCK_CPU.twx CLOCK_CPU.ncd -o CLOCK_CPU.twr CLOCK_CPU.pcf 
+xst -intstyle ise -ifn "D:/CS/CPU/CLOCK_CPU.xst" -ofn "D:/CS/CPU/CLOCK_CPU.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx16-csg324-3 CLOCK_CPU.ngc CLOCK_CPU.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o CLOCK_CPU_map.ncd CLOCK_CPU.ngd CLOCK_CPU.pcf 
+par -w -intstyle ise -ol high -mt off CLOCK_CPU_map.ncd CLOCK_CPU.ncd CLOCK_CPU.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml CLOCK_CPU.twx CLOCK_CPU.ncd -o CLOCK_CPU.twr CLOCK_CPU.pcf 
+xst -intstyle ise -ifn "D:/CS/CPU/CLOCK_CPU.xst" -ofn "D:/CS/CPU/CLOCK_CPU.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx16-csg324-3 CLOCK_CPU.ngc CLOCK_CPU.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o CLOCK_CPU_map.ncd CLOCK_CPU.ngd CLOCK_CPU.pcf 
+par -w -intstyle ise -ol high -mt off CLOCK_CPU_map.ncd CLOCK_CPU.ncd CLOCK_CPU.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml CLOCK_CPU.twx CLOCK_CPU.ncd -o CLOCK_CPU.twr CLOCK_CPU.pcf 
+xst -intstyle ise -ifn "D:/CS/CPU/CLOCK_CPU.xst" -ofn "D:/CS/CPU/CLOCK_CPU.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx16-csg324-3 CLOCK_CPU.ngc CLOCK_CPU.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o CLOCK_CPU_map.ncd CLOCK_CPU.ngd CLOCK_CPU.pcf 
+par -w -intstyle ise -ol high -mt off CLOCK_CPU_map.ncd CLOCK_CPU.ncd CLOCK_CPU.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml CLOCK_CPU.twx CLOCK_CPU.ncd -o CLOCK_CPU.twr CLOCK_CPU.pcf 
+xst -intstyle ise -ifn "D:/CS/CPU/CLOCK_CPU.xst" -ofn "D:/CS/CPU/CLOCK_CPU.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx16-csg324-3 CLOCK_CPU.ngc CLOCK_CPU.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o CLOCK_CPU_map.ncd CLOCK_CPU.ngd CLOCK_CPU.pcf 
+par -w -intstyle ise -ol high -mt off CLOCK_CPU_map.ncd CLOCK_CPU.ncd CLOCK_CPU.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml CLOCK_CPU.twx CLOCK_CPU.ncd -o CLOCK_CPU.twr CLOCK_CPU.pcf 
+xst -intstyle ise -ifn "D:/CS/CPU/CLOCK_CPU.xst" -ofn "D:/CS/CPU/CLOCK_CPU.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx16-csg324-3 CLOCK_CPU.ngc CLOCK_CPU.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o CLOCK_CPU_map.ncd CLOCK_CPU.ngd CLOCK_CPU.pcf 
+par -w -intstyle ise -ol high -mt off CLOCK_CPU_map.ncd CLOCK_CPU.ncd CLOCK_CPU.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml CLOCK_CPU.twx CLOCK_CPU.ncd -o CLOCK_CPU.twr CLOCK_CPU.pcf 
+xst -intstyle ise -ifn "D:/CS/CPU/CLOCK_CPU.xst" -ofn "D:/CS/CPU/CLOCK_CPU.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx16-csg324-3 CLOCK_CPU.ngc CLOCK_CPU.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o CLOCK_CPU_map.ncd CLOCK_CPU.ngd CLOCK_CPU.pcf 
+par -w -intstyle ise -ol high -mt off CLOCK_CPU_map.ncd CLOCK_CPU.ncd CLOCK_CPU.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml CLOCK_CPU.twx CLOCK_CPU.ncd -o CLOCK_CPU.twr CLOCK_CPU.pcf 
+xst -intstyle ise -ifn "D:/CS/CPU/CLOCK_CPU.xst" -ofn "D:/CS/CPU/CLOCK_CPU.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx16-csg324-3 CLOCK_CPU.ngc CLOCK_CPU.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o CLOCK_CPU_map.ncd CLOCK_CPU.ngd CLOCK_CPU.pcf 
+par -w -intstyle ise -ol high -mt off CLOCK_CPU_map.ncd CLOCK_CPU.ncd CLOCK_CPU.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml CLOCK_CPU.twx CLOCK_CPU.ncd -o CLOCK_CPU.twr CLOCK_CPU.pcf 
+xst -intstyle ise -ifn "D:/CS/CPU/CLOCK_CPU.xst" -ofn "D:/CS/CPU/CLOCK_CPU.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx16-csg324-3 CLOCK_CPU.ngc CLOCK_CPU.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o CLOCK_CPU_map.ncd CLOCK_CPU.ngd CLOCK_CPU.pcf 
+par -w -intstyle ise -ol high -mt off CLOCK_CPU_map.ncd CLOCK_CPU.ncd CLOCK_CPU.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml CLOCK_CPU.twx CLOCK_CPU.ncd -o CLOCK_CPU.twr CLOCK_CPU.pcf 
+xst -intstyle ise -ifn "D:/CS/CPU/CLOCK_CPU.xst" -ofn "D:/CS/CPU/CLOCK_CPU.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx16-csg324-3 CLOCK_CPU.ngc CLOCK_CPU.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o CLOCK_CPU_map.ncd CLOCK_CPU.ngd CLOCK_CPU.pcf 
+par -w -intstyle ise -ol high -mt off CLOCK_CPU_map.ncd CLOCK_CPU.ncd CLOCK_CPU.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml CLOCK_CPU.twx CLOCK_CPU.ncd -o CLOCK_CPU.twr CLOCK_CPU.pcf 
+xst -intstyle ise -ifn "D:/CS/CPU/CLOCK_CPU.xst" -ofn "D:/CS/CPU/CLOCK_CPU.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx16-csg324-3 CLOCK_CPU.ngc CLOCK_CPU.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o CLOCK_CPU_map.ncd CLOCK_CPU.ngd CLOCK_CPU.pcf 
+par -w -intstyle ise -ol high -mt off CLOCK_CPU_map.ncd CLOCK_CPU.ncd CLOCK_CPU.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml CLOCK_CPU.twx CLOCK_CPU.ncd -o CLOCK_CPU.twr CLOCK_CPU.pcf 
+xst -intstyle ise -ifn "D:/CS/CPU/CLOCK_CPU.xst" -ofn "D:/CS/CPU/CLOCK_CPU.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx16-csg324-3 CLOCK_CPU.ngc CLOCK_CPU.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o CLOCK_CPU_map.ncd CLOCK_CPU.ngd CLOCK_CPU.pcf 
+par -w -intstyle ise -ol high -mt off CLOCK_CPU_map.ncd CLOCK_CPU.ncd CLOCK_CPU.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml CLOCK_CPU.twx CLOCK_CPU.ncd -o CLOCK_CPU.twr CLOCK_CPU.pcf 
+xst -intstyle ise -ifn "D:/CS/CPU/CLOCK_CPU.xst" -ofn "D:/CS/CPU/CLOCK_CPU.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx16-csg324-3 CLOCK_CPU.ngc CLOCK_CPU.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o CLOCK_CPU_map.ncd CLOCK_CPU.ngd CLOCK_CPU.pcf 
+par -w -intstyle ise -ol high -mt off CLOCK_CPU_map.ncd CLOCK_CPU.ncd CLOCK_CPU.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml CLOCK_CPU.twx CLOCK_CPU.ncd -o CLOCK_CPU.twr CLOCK_CPU.pcf 
+xst -intstyle ise -ifn "D:/CS/CPU/CLOCK_CPU.xst" -ofn "D:/CS/CPU/CLOCK_CPU.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx16-csg324-3 CLOCK_CPU.ngc CLOCK_CPU.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o CLOCK_CPU_map.ncd CLOCK_CPU.ngd CLOCK_CPU.pcf 
+par -w -intstyle ise -ol high -mt off CLOCK_CPU_map.ncd CLOCK_CPU.ncd CLOCK_CPU.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml CLOCK_CPU.twx CLOCK_CPU.ncd -o CLOCK_CPU.twr CLOCK_CPU.pcf 
+xst -intstyle ise -ifn "D:/CS/CPU/CLOCK_CPU.xst" -ofn "D:/CS/CPU/CLOCK_CPU.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx16-csg324-3 CLOCK_CPU.ngc CLOCK_CPU.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o CLOCK_CPU_map.ncd CLOCK_CPU.ngd CLOCK_CPU.pcf 
+par -w -intstyle ise -ol high -mt off CLOCK_CPU_map.ncd CLOCK_CPU.ncd CLOCK_CPU.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml CLOCK_CPU.twx CLOCK_CPU.ncd -o CLOCK_CPU.twr CLOCK_CPU.pcf 
+xst -intstyle ise -ifn "D:/CS/CPU/CLOCK_CPU.xst" -ofn "D:/CS/CPU/CLOCK_CPU.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx16-csg324-3 CLOCK_CPU.ngc CLOCK_CPU.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o CLOCK_CPU_map.ncd CLOCK_CPU.ngd CLOCK_CPU.pcf 
+par -w -intstyle ise -ol high -mt off CLOCK_CPU_map.ncd CLOCK_CPU.ncd CLOCK_CPU.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml CLOCK_CPU.twx CLOCK_CPU.ncd -o CLOCK_CPU.twr CLOCK_CPU.pcf 
+xst -intstyle ise -ifn "D:/CS/CPU/CLOCK_CPU.xst" -ofn "D:/CS/CPU/CLOCK_CPU.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx16-csg324-3 CLOCK_CPU.ngc CLOCK_CPU.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o CLOCK_CPU_map.ncd CLOCK_CPU.ngd CLOCK_CPU.pcf 
+par -w -intstyle ise -ol high -mt off CLOCK_CPU_map.ncd CLOCK_CPU.ncd CLOCK_CPU.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml CLOCK_CPU.twx CLOCK_CPU.ncd -o CLOCK_CPU.twr CLOCK_CPU.pcf 
+xst -intstyle ise -ifn "D:/CS/CPU/CLOCK_CPU.xst" -ofn "D:/CS/CPU/CLOCK_CPU.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx16-csg324-3 CLOCK_CPU.ngc CLOCK_CPU.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o CLOCK_CPU_map.ncd CLOCK_CPU.ngd CLOCK_CPU.pcf 
+par -w -intstyle ise -ol high -mt off CLOCK_CPU_map.ncd CLOCK_CPU.ncd CLOCK_CPU.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml CLOCK_CPU.twx CLOCK_CPU.ncd -o CLOCK_CPU.twr CLOCK_CPU.pcf 
+xst -intstyle ise -ifn "D:/CS/CPU/CLOCK_CPU.xst" -ofn "D:/CS/CPU/CLOCK_CPU.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx16-csg324-3 CLOCK_CPU.ngc CLOCK_CPU.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o CLOCK_CPU_map.ncd CLOCK_CPU.ngd CLOCK_CPU.pcf 
+par -w -intstyle ise -ol high -mt off CLOCK_CPU_map.ncd CLOCK_CPU.ncd CLOCK_CPU.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml CLOCK_CPU.twx CLOCK_CPU.ncd -o CLOCK_CPU.twr CLOCK_CPU.pcf 
+xst -intstyle ise -ifn "D:/CS/CPU/CLOCK_CPU.xst" -ofn "D:/CS/CPU/CLOCK_CPU.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx16-csg324-3 CLOCK_CPU.ngc CLOCK_CPU.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o CLOCK_CPU_map.ncd CLOCK_CPU.ngd CLOCK_CPU.pcf 
+par -w -intstyle ise -ol high -mt off CLOCK_CPU_map.ncd CLOCK_CPU.ncd CLOCK_CPU.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml CLOCK_CPU.twx CLOCK_CPU.ncd -o CLOCK_CPU.twr CLOCK_CPU.pcf 
+xst -intstyle ise -ifn "D:/CS/CPU/CLOCK_CPU.xst" -ofn "D:/CS/CPU/CLOCK_CPU.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx16-csg324-3 CLOCK_CPU.ngc CLOCK_CPU.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o CLOCK_CPU_map.ncd CLOCK_CPU.ngd CLOCK_CPU.pcf 
+par -w -intstyle ise -ol high -mt off CLOCK_CPU_map.ncd CLOCK_CPU.ncd CLOCK_CPU.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml CLOCK_CPU.twx CLOCK_CPU.ncd -o CLOCK_CPU.twr CLOCK_CPU.pcf 
+xst -intstyle ise -ifn "D:/CS/CPU/CLOCK_CPU.xst" -ofn "D:/CS/CPU/CLOCK_CPU.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx16-csg324-3 CLOCK_CPU.ngc CLOCK_CPU.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o CLOCK_CPU_map.ncd CLOCK_CPU.ngd CLOCK_CPU.pcf 
+par -w -intstyle ise -ol high -mt off CLOCK_CPU_map.ncd CLOCK_CPU.ncd CLOCK_CPU.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml CLOCK_CPU.twx CLOCK_CPU.ncd -o CLOCK_CPU.twr CLOCK_CPU.pcf 
+xst -intstyle ise -ifn "D:/CS/CPU/CLOCK_CPU.xst" -ofn "D:/CS/CPU/CLOCK_CPU.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx16-csg324-3 CLOCK_CPU.ngc CLOCK_CPU.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o CLOCK_CPU_map.ncd CLOCK_CPU.ngd CLOCK_CPU.pcf 
+par -w -intstyle ise -ol high -mt off CLOCK_CPU_map.ncd CLOCK_CPU.ncd CLOCK_CPU.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml CLOCK_CPU.twx CLOCK_CPU.ncd -o CLOCK_CPU.twr CLOCK_CPU.pcf 
+xst -intstyle ise -ifn "D:/CS/CPU/CLOCK_CPU.xst" -ofn "D:/CS/CPU/CLOCK_CPU.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx16-csg324-3 CLOCK_CPU.ngc CLOCK_CPU.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o CLOCK_CPU_map.ncd CLOCK_CPU.ngd CLOCK_CPU.pcf 
+par -w -intstyle ise -ol high -mt off CLOCK_CPU_map.ncd CLOCK_CPU.ncd CLOCK_CPU.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml CLOCK_CPU.twx CLOCK_CPU.ncd -o CLOCK_CPU.twr CLOCK_CPU.pcf 
+xst -intstyle ise -ifn "D:/CS/CPU/CLOCK_CPU.xst" -ofn "D:/CS/CPU/CLOCK_CPU.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx16-csg324-3 CLOCK_CPU.ngc CLOCK_CPU.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o CLOCK_CPU_map.ncd CLOCK_CPU.ngd CLOCK_CPU.pcf 
+par -w -intstyle ise -ol high -mt off CLOCK_CPU_map.ncd CLOCK_CPU.ncd CLOCK_CPU.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml CLOCK_CPU.twx CLOCK_CPU.ncd -o CLOCK_CPU.twr CLOCK_CPU.pcf 
+xst -intstyle ise -ifn "D:/CS/CPU/CLOCK_CPU.xst" -ofn "D:/CS/CPU/CLOCK_CPU.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx16-csg324-3 CLOCK_CPU.ngc CLOCK_CPU.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o CLOCK_CPU_map.ncd CLOCK_CPU.ngd CLOCK_CPU.pcf 
+par -w -intstyle ise -ol high -mt off CLOCK_CPU_map.ncd CLOCK_CPU.ncd CLOCK_CPU.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml CLOCK_CPU.twx CLOCK_CPU.ncd -o CLOCK_CPU.twr CLOCK_CPU.pcf 
+xst -intstyle ise -ifn "D:/CS/CPU/CLOCK_CPU.xst" -ofn "D:/CS/CPU/CLOCK_CPU.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx16-csg324-3 CLOCK_CPU.ngc CLOCK_CPU.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o CLOCK_CPU_map.ncd CLOCK_CPU.ngd CLOCK_CPU.pcf 
+par -w -intstyle ise -ol high -mt off CLOCK_CPU_map.ncd CLOCK_CPU.ncd CLOCK_CPU.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml CLOCK_CPU.twx CLOCK_CPU.ncd -o CLOCK_CPU.twr CLOCK_CPU.pcf 
+xst -intstyle ise -ifn "D:/CS/CPU/CLOCK_CPU.xst" -ofn "D:/CS/CPU/CLOCK_CPU.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx16-csg324-3 CLOCK_CPU.ngc CLOCK_CPU.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o CLOCK_CPU_map.ncd CLOCK_CPU.ngd CLOCK_CPU.pcf 
+par -w -intstyle ise -ol high -mt off CLOCK_CPU_map.ncd CLOCK_CPU.ncd CLOCK_CPU.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml CLOCK_CPU.twx CLOCK_CPU.ncd -o CLOCK_CPU.twr CLOCK_CPU.pcf 
+xst -intstyle ise -ifn "D:/CS/CPU/CLOCK_CPU.xst" -ofn "D:/CS/CPU/CLOCK_CPU.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx16-csg324-3 CLOCK_CPU.ngc CLOCK_CPU.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o CLOCK_CPU_map.ncd CLOCK_CPU.ngd CLOCK_CPU.pcf 
+par -w -intstyle ise -ol high -mt off CLOCK_CPU_map.ncd CLOCK_CPU.ncd CLOCK_CPU.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml CLOCK_CPU.twx CLOCK_CPU.ncd -o CLOCK_CPU.twr CLOCK_CPU.pcf 
+xst -intstyle ise -ifn "D:/CS/CPU/CLOCK_CPU.xst" -ofn "D:/CS/CPU/CLOCK_CPU.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx16-csg324-3 CLOCK_CPU.ngc CLOCK_CPU.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o CLOCK_CPU_map.ncd CLOCK_CPU.ngd CLOCK_CPU.pcf 
+par -w -intstyle ise -ol high -mt off CLOCK_CPU_map.ncd CLOCK_CPU.ncd CLOCK_CPU.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml CLOCK_CPU.twx CLOCK_CPU.ncd -o CLOCK_CPU.twr CLOCK_CPU.pcf 
+xst -intstyle ise -ifn "D:/CS/CPU/CLOCK_CPU.xst" -ofn "D:/CS/CPU/CLOCK_CPU.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx16-csg324-3 CLOCK_CPU.ngc CLOCK_CPU.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o CLOCK_CPU_map.ncd CLOCK_CPU.ngd CLOCK_CPU.pcf 
+par -w -intstyle ise -ol high -mt off CLOCK_CPU_map.ncd CLOCK_CPU.ncd CLOCK_CPU.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml CLOCK_CPU.twx CLOCK_CPU.ncd -o CLOCK_CPU.twr CLOCK_CPU.pcf 
+xst -intstyle ise -ifn "D:/CS/CPU/CLOCK_CPU.xst" -ofn "D:/CS/CPU/CLOCK_CPU.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx16-csg324-3 CLOCK_CPU.ngc CLOCK_CPU.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o CLOCK_CPU_map.ncd CLOCK_CPU.ngd CLOCK_CPU.pcf 
+par -w -intstyle ise -ol high -mt off CLOCK_CPU_map.ncd CLOCK_CPU.ncd CLOCK_CPU.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml CLOCK_CPU.twx CLOCK_CPU.ncd -o CLOCK_CPU.twr CLOCK_CPU.pcf 
+xst -intstyle ise -ifn "D:/CS/CPU/CLOCK_CPU.xst" -ofn "D:/CS/CPU/CLOCK_CPU.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx16-csg324-3 CLOCK_CPU.ngc CLOCK_CPU.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o CLOCK_CPU_map.ncd CLOCK_CPU.ngd CLOCK_CPU.pcf 
+par -w -intstyle ise -ol high -mt off CLOCK_CPU_map.ncd CLOCK_CPU.ncd CLOCK_CPU.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml CLOCK_CPU.twx CLOCK_CPU.ncd -o CLOCK_CPU.twr CLOCK_CPU.pcf 
+xst -intstyle ise -ifn "D:/CS/CPU/CLOCK_CPU.xst" -ofn "D:/CS/CPU/CLOCK_CPU.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx16-csg324-3 CLOCK_CPU.ngc CLOCK_CPU.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o CLOCK_CPU_map.ncd CLOCK_CPU.ngd CLOCK_CPU.pcf 
+par -w -intstyle ise -ol high -mt off CLOCK_CPU_map.ncd CLOCK_CPU.ncd CLOCK_CPU.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml CLOCK_CPU.twx CLOCK_CPU.ncd -o CLOCK_CPU.twr CLOCK_CPU.pcf 
+xst -intstyle ise -ifn "D:/CS/CPU/CLOCK_CPU.xst" -ofn "D:/CS/CPU/CLOCK_CPU.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx16-csg324-3 CLOCK_CPU.ngc CLOCK_CPU.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o CLOCK_CPU_map.ncd CLOCK_CPU.ngd CLOCK_CPU.pcf 
+par -w -intstyle ise -ol high -mt off CLOCK_CPU_map.ncd CLOCK_CPU.ncd CLOCK_CPU.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml CLOCK_CPU.twx CLOCK_CPU.ncd -o CLOCK_CPU.twr CLOCK_CPU.pcf 
+xst -intstyle ise -ifn "D:/CS/CPU/CLOCK_CPU.xst" -ofn "D:/CS/CPU/CLOCK_CPU.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx16-csg324-3 CLOCK_CPU.ngc CLOCK_CPU.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o CLOCK_CPU_map.ncd CLOCK_CPU.ngd CLOCK_CPU.pcf 
+par -w -intstyle ise -ol high -mt off CLOCK_CPU_map.ncd CLOCK_CPU.ncd CLOCK_CPU.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml CLOCK_CPU.twx CLOCK_CPU.ncd -o CLOCK_CPU.twr CLOCK_CPU.pcf 
+xst -intstyle ise -ifn "D:/CS/CPU/CLOCK_CPU.xst" -ofn "D:/CS/CPU/CLOCK_CPU.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx16-csg324-3 CLOCK_CPU.ngc CLOCK_CPU.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o CLOCK_CPU_map.ncd CLOCK_CPU.ngd CLOCK_CPU.pcf 
+par -w -intstyle ise -ol high -mt off CLOCK_CPU_map.ncd CLOCK_CPU.ncd CLOCK_CPU.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml CLOCK_CPU.twx CLOCK_CPU.ncd -o CLOCK_CPU.twr CLOCK_CPU.pcf 
+xst -intstyle ise -ifn "D:/CS/CPU/CLOCK_CPU.xst" -ofn "D:/CS/CPU/CLOCK_CPU.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx16-csg324-3 CLOCK_CPU.ngc CLOCK_CPU.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o CLOCK_CPU_map.ncd CLOCK_CPU.ngd CLOCK_CPU.pcf 
+par -w -intstyle ise -ol high -mt off CLOCK_CPU_map.ncd CLOCK_CPU.ncd CLOCK_CPU.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml CLOCK_CPU.twx CLOCK_CPU.ncd -o CLOCK_CPU.twr CLOCK_CPU.pcf 
+xst -intstyle ise -ifn "D:/CS/CPU/CLOCK_CPU.xst" -ofn "D:/CS/CPU/CLOCK_CPU.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx16-csg324-3 CLOCK_CPU.ngc CLOCK_CPU.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o CLOCK_CPU_map.ncd CLOCK_CPU.ngd CLOCK_CPU.pcf 
+par -w -intstyle ise -ol high -mt off CLOCK_CPU_map.ncd CLOCK_CPU.ncd CLOCK_CPU.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml CLOCK_CPU.twx CLOCK_CPU.ncd -o CLOCK_CPU.twr CLOCK_CPU.pcf 
+xst -intstyle ise -ifn "D:/CS/CPU/CLOCK_CPU.xst" -ofn "D:/CS/CPU/CLOCK_CPU.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx16-csg324-3 CLOCK_CPU.ngc CLOCK_CPU.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o CLOCK_CPU_map.ncd CLOCK_CPU.ngd CLOCK_CPU.pcf 
+par -w -intstyle ise -ol high -mt off CLOCK_CPU_map.ncd CLOCK_CPU.ncd CLOCK_CPU.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml CLOCK_CPU.twx CLOCK_CPU.ncd -o CLOCK_CPU.twr CLOCK_CPU.pcf 
+xst -intstyle ise -ifn "D:/CS/CPU/CLOCK_CPU.xst" -ofn "D:/CS/CPU/CLOCK_CPU.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx16-csg324-3 CLOCK_CPU.ngc CLOCK_CPU.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o CLOCK_CPU_map.ncd CLOCK_CPU.ngd CLOCK_CPU.pcf 
+par -w -intstyle ise -ol high -mt off CLOCK_CPU_map.ncd CLOCK_CPU.ncd CLOCK_CPU.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml CLOCK_CPU.twx CLOCK_CPU.ncd -o CLOCK_CPU.twr CLOCK_CPU.pcf 
+xst -intstyle ise -ifn "D:/CS/CPU/CLOCK_CPU.xst" -ofn "D:/CS/CPU/CLOCK_CPU.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx16-csg324-3 CLOCK_CPU.ngc CLOCK_CPU.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o CLOCK_CPU_map.ncd CLOCK_CPU.ngd CLOCK_CPU.pcf 
+par -w -intstyle ise -ol high -mt off CLOCK_CPU_map.ncd CLOCK_CPU.ncd CLOCK_CPU.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml CLOCK_CPU.twx CLOCK_CPU.ncd -o CLOCK_CPU.twr CLOCK_CPU.pcf 
+xst -intstyle ise -ifn "D:/CS/CPU/CLOCK_CPU.xst" -ofn "D:/CS/CPU/CLOCK_CPU.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx16-csg324-3 CLOCK_CPU.ngc CLOCK_CPU.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o CLOCK_CPU_map.ncd CLOCK_CPU.ngd CLOCK_CPU.pcf 
+par -w -intstyle ise -ol high -mt off CLOCK_CPU_map.ncd CLOCK_CPU.ncd CLOCK_CPU.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml CLOCK_CPU.twx CLOCK_CPU.ncd -o CLOCK_CPU.twr CLOCK_CPU.pcf 
+xst -intstyle ise -ifn "D:/CS/CPU/CLOCK_CPU.xst" -ofn "D:/CS/CPU/CLOCK_CPU.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx16-csg324-3 CLOCK_CPU.ngc CLOCK_CPU.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o CLOCK_CPU_map.ncd CLOCK_CPU.ngd CLOCK_CPU.pcf 
+par -w -intstyle ise -ol high -mt off CLOCK_CPU_map.ncd CLOCK_CPU.ncd CLOCK_CPU.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml CLOCK_CPU.twx CLOCK_CPU.ncd -o CLOCK_CPU.twr CLOCK_CPU.pcf 
+xst -intstyle ise -ifn "D:/CS/CPU/CLOCK_CPU.xst" -ofn "D:/CS/CPU/CLOCK_CPU.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx16-csg324-3 CLOCK_CPU.ngc CLOCK_CPU.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o CLOCK_CPU_map.ncd CLOCK_CPU.ngd CLOCK_CPU.pcf 
+par -w -intstyle ise -ol high -mt off CLOCK_CPU_map.ncd CLOCK_CPU.ncd CLOCK_CPU.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml CLOCK_CPU.twx CLOCK_CPU.ncd -o CLOCK_CPU.twr CLOCK_CPU.pcf 
+xst -intstyle ise -ifn "D:/CS/CPU/CLOCK_CPU.xst" -ofn "D:/CS/CPU/CLOCK_CPU.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx16-csg324-3 CLOCK_CPU.ngc CLOCK_CPU.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o CLOCK_CPU_map.ncd CLOCK_CPU.ngd CLOCK_CPU.pcf 
+par -w -intstyle ise -ol high -mt off CLOCK_CPU_map.ncd CLOCK_CPU.ncd CLOCK_CPU.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml CLOCK_CPU.twx CLOCK_CPU.ncd -o CLOCK_CPU.twr CLOCK_CPU.pcf 
+xst -intstyle ise -ifn "D:/CS/CPU/CLOCK_CPU.xst" -ofn "D:/CS/CPU/CLOCK_CPU.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx16-csg324-3 CLOCK_CPU.ngc CLOCK_CPU.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o CLOCK_CPU_map.ncd CLOCK_CPU.ngd CLOCK_CPU.pcf 
+par -w -intstyle ise -ol high -mt off CLOCK_CPU_map.ncd CLOCK_CPU.ncd CLOCK_CPU.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml CLOCK_CPU.twx CLOCK_CPU.ncd -o CLOCK_CPU.twr CLOCK_CPU.pcf 
+xst -intstyle ise -ifn "D:/CS/CPU/CLOCK_CPU.xst" -ofn "D:/CS/CPU/CLOCK_CPU.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx16-csg324-3 CLOCK_CPU.ngc CLOCK_CPU.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o CLOCK_CPU_map.ncd CLOCK_CPU.ngd CLOCK_CPU.pcf 
+par -w -intstyle ise -ol high -mt off CLOCK_CPU_map.ncd CLOCK_CPU.ncd CLOCK_CPU.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml CLOCK_CPU.twx CLOCK_CPU.ncd -o CLOCK_CPU.twr CLOCK_CPU.pcf 
+xst -intstyle ise -ifn "D:/CS/CPU/CLOCK_CPU.xst" -ofn "D:/CS/CPU/CLOCK_CPU.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx16-csg324-3 CLOCK_CPU.ngc CLOCK_CPU.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o CLOCK_CPU_map.ncd CLOCK_CPU.ngd CLOCK_CPU.pcf 
+par -w -intstyle ise -ol high -mt off CLOCK_CPU_map.ncd CLOCK_CPU.ncd CLOCK_CPU.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml CLOCK_CPU.twx CLOCK_CPU.ncd -o CLOCK_CPU.twr CLOCK_CPU.pcf 
+xst -intstyle ise -ifn "D:/CS/CPU/CLOCK_CPU.xst" -ofn "D:/CS/CPU/CLOCK_CPU.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx16-csg324-3 CLOCK_CPU.ngc CLOCK_CPU.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o CLOCK_CPU_map.ncd CLOCK_CPU.ngd CLOCK_CPU.pcf 
+par -w -intstyle ise -ol high -mt off CLOCK_CPU_map.ncd CLOCK_CPU.ncd CLOCK_CPU.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml CLOCK_CPU.twx CLOCK_CPU.ncd -o CLOCK_CPU.twr CLOCK_CPU.pcf 
+xst -intstyle ise -ifn "D:/CS/CPU/CLOCK_CPU.xst" -ofn "D:/CS/CPU/CLOCK_CPU.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx16-csg324-3 CLOCK_CPU.ngc CLOCK_CPU.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o CLOCK_CPU_map.ncd CLOCK_CPU.ngd CLOCK_CPU.pcf 
+par -w -intstyle ise -ol high -mt off CLOCK_CPU_map.ncd CLOCK_CPU.ncd CLOCK_CPU.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml CLOCK_CPU.twx CLOCK_CPU.ncd -o CLOCK_CPU.twr CLOCK_CPU.pcf 
+xst -intstyle ise -ifn "D:/CS/CPU/CLOCK_CPU.xst" -ofn "D:/CS/CPU/CLOCK_CPU.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx16-csg324-3 CLOCK_CPU.ngc CLOCK_CPU.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o CLOCK_CPU_map.ncd CLOCK_CPU.ngd CLOCK_CPU.pcf 
+par -w -intstyle ise -ol high -mt off CLOCK_CPU_map.ncd CLOCK_CPU.ncd CLOCK_CPU.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml CLOCK_CPU.twx CLOCK_CPU.ncd -o CLOCK_CPU.twr CLOCK_CPU.pcf 
+xst -intstyle ise -ifn "D:/CS/CPU/CLOCK_CPU.xst" -ofn "D:/CS/CPU/CLOCK_CPU.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx16-csg324-3 CLOCK_CPU.ngc CLOCK_CPU.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o CLOCK_CPU_map.ncd CLOCK_CPU.ngd CLOCK_CPU.pcf 
+par -w -intstyle ise -ol high -mt off CLOCK_CPU_map.ncd CLOCK_CPU.ncd CLOCK_CPU.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml CLOCK_CPU.twx CLOCK_CPU.ncd -o CLOCK_CPU.twr CLOCK_CPU.pcf 
+xst -intstyle ise -ifn "D:/CS/CPU/CLOCK_CPU.xst" -ofn "D:/CS/CPU/CLOCK_CPU.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx16-csg324-3 CLOCK_CPU.ngc CLOCK_CPU.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o CLOCK_CPU_map.ncd CLOCK_CPU.ngd CLOCK_CPU.pcf 
+par -w -intstyle ise -ol high -mt off CLOCK_CPU_map.ncd CLOCK_CPU.ncd CLOCK_CPU.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml CLOCK_CPU.twx CLOCK_CPU.ncd -o CLOCK_CPU.twr CLOCK_CPU.pcf 
+xst -intstyle ise -ifn "D:/CS/CPU/CLOCK_CPU.xst" -ofn "D:/CS/CPU/CLOCK_CPU.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx16-csg324-3 CLOCK_CPU.ngc CLOCK_CPU.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o CLOCK_CPU_map.ncd CLOCK_CPU.ngd CLOCK_CPU.pcf 
+par -w -intstyle ise -ol high -mt off CLOCK_CPU_map.ncd CLOCK_CPU.ncd CLOCK_CPU.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml CLOCK_CPU.twx CLOCK_CPU.ncd -o CLOCK_CPU.twr CLOCK_CPU.pcf 
+xst -intstyle ise -ifn "D:/CS/CPU/CLOCK_CPU.xst" -ofn "D:/CS/CPU/CLOCK_CPU.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx16-csg324-3 CLOCK_CPU.ngc CLOCK_CPU.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o CLOCK_CPU_map.ncd CLOCK_CPU.ngd CLOCK_CPU.pcf 
+par -w -intstyle ise -ol high -mt off CLOCK_CPU_map.ncd CLOCK_CPU.ncd CLOCK_CPU.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml CLOCK_CPU.twx CLOCK_CPU.ncd -o CLOCK_CPU.twr CLOCK_CPU.pcf 
+xst -intstyle ise -ifn "D:/CS/CPU/CLOCK_CPU.xst" -ofn "D:/CS/CPU/CLOCK_CPU.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx16-csg324-3 CLOCK_CPU.ngc CLOCK_CPU.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o CLOCK_CPU_map.ncd CLOCK_CPU.ngd CLOCK_CPU.pcf 
+par -w -intstyle ise -ol high -mt off CLOCK_CPU_map.ncd CLOCK_CPU.ncd CLOCK_CPU.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml CLOCK_CPU.twx CLOCK_CPU.ncd -o CLOCK_CPU.twr CLOCK_CPU.pcf 
+xst -intstyle ise -ifn "D:/CS/CPU/CLOCK_CPU.xst" -ofn "D:/CS/CPU/CLOCK_CPU.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx16-csg324-3 CLOCK_CPU.ngc CLOCK_CPU.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o CLOCK_CPU_map.ncd CLOCK_CPU.ngd CLOCK_CPU.pcf 
+par -w -intstyle ise -ol high -mt off CLOCK_CPU_map.ncd CLOCK_CPU.ncd CLOCK_CPU.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml CLOCK_CPU.twx CLOCK_CPU.ncd -o CLOCK_CPU.twr CLOCK_CPU.pcf 
+xst -intstyle ise -ifn "D:/CS/CPU/CLOCK_CPU.xst" -ofn "D:/CS/CPU/CLOCK_CPU.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx16-csg324-3 CLOCK_CPU.ngc CLOCK_CPU.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o CLOCK_CPU_map.ncd CLOCK_CPU.ngd CLOCK_CPU.pcf 
+par -w -intstyle ise -ol high -mt off CLOCK_CPU_map.ncd CLOCK_CPU.ncd CLOCK_CPU.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml CLOCK_CPU.twx CLOCK_CPU.ncd -o CLOCK_CPU.twr CLOCK_CPU.pcf 
+xst -intstyle ise -ifn "D:/CS/CPU/CLOCK_CPU.xst" -ofn "D:/CS/CPU/CLOCK_CPU.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx16-csg324-3 CLOCK_CPU.ngc CLOCK_CPU.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o CLOCK_CPU_map.ncd CLOCK_CPU.ngd CLOCK_CPU.pcf 
+par -w -intstyle ise -ol high -mt off CLOCK_CPU_map.ncd CLOCK_CPU.ncd CLOCK_CPU.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml CLOCK_CPU.twx CLOCK_CPU.ncd -o CLOCK_CPU.twr CLOCK_CPU.pcf 
+xst -intstyle ise -ifn "D:/CS/CPU/CLOCK_CPU.xst" -ofn "D:/CS/CPU/CLOCK_CPU.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx16-csg324-3 CLOCK_CPU.ngc CLOCK_CPU.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o CLOCK_CPU_map.ncd CLOCK_CPU.ngd CLOCK_CPU.pcf 
+par -w -intstyle ise -ol high -mt off CLOCK_CPU_map.ncd CLOCK_CPU.ncd CLOCK_CPU.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml CLOCK_CPU.twx CLOCK_CPU.ncd -o CLOCK_CPU.twr CLOCK_CPU.pcf 
+xst -intstyle ise -ifn "D:/CS/CPU/CLOCK_CPU.xst" -ofn "D:/CS/CPU/CLOCK_CPU.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx16-csg324-3 CLOCK_CPU.ngc CLOCK_CPU.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o CLOCK_CPU_map.ncd CLOCK_CPU.ngd CLOCK_CPU.pcf 
+par -w -intstyle ise -ol high -mt off CLOCK_CPU_map.ncd CLOCK_CPU.ncd CLOCK_CPU.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml CLOCK_CPU.twx CLOCK_CPU.ncd -o CLOCK_CPU.twr CLOCK_CPU.pcf 
+xst -intstyle ise -ifn "D:/CS/CPU/CLOCK_CPU.xst" -ofn "D:/CS/CPU/CLOCK_CPU.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx16-csg324-3 CLOCK_CPU.ngc CLOCK_CPU.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o CLOCK_CPU_map.ncd CLOCK_CPU.ngd CLOCK_CPU.pcf 
+par -w -intstyle ise -ol high -mt off CLOCK_CPU_map.ncd CLOCK_CPU.ncd CLOCK_CPU.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml CLOCK_CPU.twx CLOCK_CPU.ncd -o CLOCK_CPU.twr CLOCK_CPU.pcf 
+xst -intstyle ise -ifn "D:/CS/CPU/CLOCK_CPU.xst" -ofn "D:/CS/CPU/CLOCK_CPU.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx16-csg324-3 CLOCK_CPU.ngc CLOCK_CPU.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o CLOCK_CPU_map.ncd CLOCK_CPU.ngd CLOCK_CPU.pcf 
+par -w -intstyle ise -ol high -mt off CLOCK_CPU_map.ncd CLOCK_CPU.ncd CLOCK_CPU.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml CLOCK_CPU.twx CLOCK_CPU.ncd -o CLOCK_CPU.twr CLOCK_CPU.pcf 
+xst -intstyle ise -ifn "D:/CS/CPU/CLOCK_CPU.xst" -ofn "D:/CS/CPU/CLOCK_CPU.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx16-csg324-3 CLOCK_CPU.ngc CLOCK_CPU.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o CLOCK_CPU_map.ncd CLOCK_CPU.ngd CLOCK_CPU.pcf 
+par -w -intstyle ise -ol high -mt off CLOCK_CPU_map.ncd CLOCK_CPU.ncd CLOCK_CPU.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml CLOCK_CPU.twx CLOCK_CPU.ncd -o CLOCK_CPU.twr CLOCK_CPU.pcf 
+xst -intstyle ise -ifn "D:/CS/CPU/CLOCK_CPU.xst" -ofn "D:/CS/CPU/CLOCK_CPU.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx16-csg324-3 CLOCK_CPU.ngc CLOCK_CPU.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o CLOCK_CPU_map.ncd CLOCK_CPU.ngd CLOCK_CPU.pcf 
+par -w -intstyle ise -ol high -mt off CLOCK_CPU_map.ncd CLOCK_CPU.ncd CLOCK_CPU.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml CLOCK_CPU.twx CLOCK_CPU.ncd -o CLOCK_CPU.twr CLOCK_CPU.pcf 
+xst -intstyle ise -ifn "D:/CS/CPU/CLOCK_CPU.xst" -ofn "D:/CS/CPU/CLOCK_CPU.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx16-csg324-3 CLOCK_CPU.ngc CLOCK_CPU.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o CLOCK_CPU_map.ncd CLOCK_CPU.ngd CLOCK_CPU.pcf 
+par -w -intstyle ise -ol high -mt off CLOCK_CPU_map.ncd CLOCK_CPU.ncd CLOCK_CPU.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml CLOCK_CPU.twx CLOCK_CPU.ncd -o CLOCK_CPU.twr CLOCK_CPU.pcf 
+xst -intstyle ise -ifn "D:/CS/CPU/CLOCK_CPU.xst" -ofn "D:/CS/CPU/CLOCK_CPU.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx16-csg324-3 CLOCK_CPU.ngc CLOCK_CPU.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o CLOCK_CPU_map.ncd CLOCK_CPU.ngd CLOCK_CPU.pcf 
+par -w -intstyle ise -ol high -mt off CLOCK_CPU_map.ncd CLOCK_CPU.ncd CLOCK_CPU.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml CLOCK_CPU.twx CLOCK_CPU.ncd -o CLOCK_CPU.twr CLOCK_CPU.pcf 
+xst -intstyle ise -ifn "D:/CS/CPU/CLOCK_CPU.xst" -ofn "D:/CS/CPU/CLOCK_CPU.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx16-csg324-3 CLOCK_CPU.ngc CLOCK_CPU.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o CLOCK_CPU_map.ncd CLOCK_CPU.ngd CLOCK_CPU.pcf 
+par -w -intstyle ise -ol high -mt off CLOCK_CPU_map.ncd CLOCK_CPU.ncd CLOCK_CPU.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml CLOCK_CPU.twx CLOCK_CPU.ncd -o CLOCK_CPU.twr CLOCK_CPU.pcf 
+xst -intstyle ise -ifn "D:/CS/CPU/CLOCK_CPU.xst" -ofn "D:/CS/CPU/CLOCK_CPU.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx16-csg324-3 CLOCK_CPU.ngc CLOCK_CPU.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o CLOCK_CPU_map.ncd CLOCK_CPU.ngd CLOCK_CPU.pcf 
+par -w -intstyle ise -ol high -mt off CLOCK_CPU_map.ncd CLOCK_CPU.ncd CLOCK_CPU.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml CLOCK_CPU.twx CLOCK_CPU.ncd -o CLOCK_CPU.twr CLOCK_CPU.pcf 
+xst -intstyle ise -ifn "D:/CS/CPU/CLOCK_CPU.xst" -ofn "D:/CS/CPU/CLOCK_CPU.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx16-csg324-3 CLOCK_CPU.ngc CLOCK_CPU.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o CLOCK_CPU_map.ncd CLOCK_CPU.ngd CLOCK_CPU.pcf 
+par -w -intstyle ise -ol high -mt off CLOCK_CPU_map.ncd CLOCK_CPU.ncd CLOCK_CPU.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml CLOCK_CPU.twx CLOCK_CPU.ncd -o CLOCK_CPU.twr CLOCK_CPU.pcf 
+xst -intstyle ise -ifn "D:/CS/CPU/CLOCK_CPU.xst" -ofn "D:/CS/CPU/CLOCK_CPU.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx16-csg324-3 CLOCK_CPU.ngc CLOCK_CPU.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o CLOCK_CPU_map.ncd CLOCK_CPU.ngd CLOCK_CPU.pcf 
+par -w -intstyle ise -ol high -mt off CLOCK_CPU_map.ncd CLOCK_CPU.ncd CLOCK_CPU.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml CLOCK_CPU.twx CLOCK_CPU.ncd -o CLOCK_CPU.twr CLOCK_CPU.pcf 
+xst -intstyle ise -ifn "D:/CS/CPU/CLOCK_CPU.xst" -ofn "D:/CS/CPU/CLOCK_CPU.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx16-csg324-3 CLOCK_CPU.ngc CLOCK_CPU.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o CLOCK_CPU_map.ncd CLOCK_CPU.ngd CLOCK_CPU.pcf 
+par -w -intstyle ise -ol high -mt off CLOCK_CPU_map.ncd CLOCK_CPU.ncd CLOCK_CPU.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml CLOCK_CPU.twx CLOCK_CPU.ncd -o CLOCK_CPU.twr CLOCK_CPU.pcf 
+xst -intstyle ise -ifn "D:/CS/CPU/CLOCK_CPU.xst" -ofn "D:/CS/CPU/CLOCK_CPU.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx16-csg324-3 CLOCK_CPU.ngc CLOCK_CPU.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o CLOCK_CPU_map.ncd CLOCK_CPU.ngd CLOCK_CPU.pcf 
+par -w -intstyle ise -ol high -mt off CLOCK_CPU_map.ncd CLOCK_CPU.ncd CLOCK_CPU.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml CLOCK_CPU.twx CLOCK_CPU.ncd -o CLOCK_CPU.twr CLOCK_CPU.pcf 
+xst -intstyle ise -ifn "D:/CS/CPU/CLOCK_CPU.xst" -ofn "D:/CS/CPU/CLOCK_CPU.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx16-csg324-3 CLOCK_CPU.ngc CLOCK_CPU.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o CLOCK_CPU_map.ncd CLOCK_CPU.ngd CLOCK_CPU.pcf 
+par -w -intstyle ise -ol high -mt off CLOCK_CPU_map.ncd CLOCK_CPU.ncd CLOCK_CPU.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml CLOCK_CPU.twx CLOCK_CPU.ncd -o CLOCK_CPU.twr CLOCK_CPU.pcf 
+xst -intstyle ise -ifn "D:/CS/CPU/CLOCK_CPU.xst" -ofn "D:/CS/CPU/CLOCK_CPU.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx16-csg324-3 CLOCK_CPU.ngc CLOCK_CPU.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o CLOCK_CPU_map.ncd CLOCK_CPU.ngd CLOCK_CPU.pcf 
+par -w -intstyle ise -ol high -mt off CLOCK_CPU_map.ncd CLOCK_CPU.ncd CLOCK_CPU.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml CLOCK_CPU.twx CLOCK_CPU.ncd -o CLOCK_CPU.twr CLOCK_CPU.pcf 
+xst -intstyle ise -ifn "D:/CS/CPU/CLOCK_CPU.xst" -ofn "D:/CS/CPU/CLOCK_CPU.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx16-csg324-3 CLOCK_CPU.ngc CLOCK_CPU.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o CLOCK_CPU_map.ncd CLOCK_CPU.ngd CLOCK_CPU.pcf 
+par -w -intstyle ise -ol high -mt off CLOCK_CPU_map.ncd CLOCK_CPU.ncd CLOCK_CPU.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml CLOCK_CPU.twx CLOCK_CPU.ncd -o CLOCK_CPU.twr CLOCK_CPU.pcf 
+xst -intstyle ise -ifn "D:/CS/CPU/CLOCK_CPU.xst" -ofn "D:/CS/CPU/CLOCK_CPU.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx16-csg324-3 CLOCK_CPU.ngc CLOCK_CPU.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o CLOCK_CPU_map.ncd CLOCK_CPU.ngd CLOCK_CPU.pcf 
+par -w -intstyle ise -ol high -mt off CLOCK_CPU_map.ncd CLOCK_CPU.ncd CLOCK_CPU.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml CLOCK_CPU.twx CLOCK_CPU.ncd -o CLOCK_CPU.twr CLOCK_CPU.pcf 
+xst -intstyle ise -ifn "D:/CS/CPU/CLOCK_CPU.xst" -ofn "D:/CS/CPU/CLOCK_CPU.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx16-csg324-3 CLOCK_CPU.ngc CLOCK_CPU.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o CLOCK_CPU_map.ncd CLOCK_CPU.ngd CLOCK_CPU.pcf 
+par -w -intstyle ise -ol high -mt off CLOCK_CPU_map.ncd CLOCK_CPU.ncd CLOCK_CPU.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml CLOCK_CPU.twx CLOCK_CPU.ncd -o CLOCK_CPU.twr CLOCK_CPU.pcf 
+xst -intstyle ise -ifn "D:/CS/CPU/CLOCK_CPU.xst" -ofn "D:/CS/CPU/CLOCK_CPU.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx16-csg324-3 CLOCK_CPU.ngc CLOCK_CPU.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o CLOCK_CPU_map.ncd CLOCK_CPU.ngd CLOCK_CPU.pcf 
+par -w -intstyle ise -ol high -mt off CLOCK_CPU_map.ncd CLOCK_CPU.ncd CLOCK_CPU.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml CLOCK_CPU.twx CLOCK_CPU.ncd -o CLOCK_CPU.twr CLOCK_CPU.pcf 
+xst -intstyle ise -ifn "D:/CS/CPU/CLOCK_CPU.xst" -ofn "D:/CS/CPU/CLOCK_CPU.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx16-csg324-3 CLOCK_CPU.ngc CLOCK_CPU.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o CLOCK_CPU_map.ncd CLOCK_CPU.ngd CLOCK_CPU.pcf 
+par -w -intstyle ise -ol high -mt off CLOCK_CPU_map.ncd CLOCK_CPU.ncd CLOCK_CPU.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml CLOCK_CPU.twx CLOCK_CPU.ncd -o CLOCK_CPU.twr CLOCK_CPU.pcf 
+xst -intstyle ise -ifn "D:/CS/CPU/CLOCK_CPU.xst" -ofn "D:/CS/CPU/CLOCK_CPU.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx16-csg324-3 CLOCK_CPU.ngc CLOCK_CPU.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o CLOCK_CPU_map.ncd CLOCK_CPU.ngd CLOCK_CPU.pcf 
+par -w -intstyle ise -ol high -mt off CLOCK_CPU_map.ncd CLOCK_CPU.ncd CLOCK_CPU.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml CLOCK_CPU.twx CLOCK_CPU.ncd -o CLOCK_CPU.twr CLOCK_CPU.pcf 
+xst -intstyle ise -ifn "D:/CS/CPU/CLOCK_CPU.xst" -ofn "D:/CS/CPU/CLOCK_CPU.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx16-csg324-3 CLOCK_CPU.ngc CLOCK_CPU.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o CLOCK_CPU_map.ncd CLOCK_CPU.ngd CLOCK_CPU.pcf 
+par -w -intstyle ise -ol high -mt off CLOCK_CPU_map.ncd CLOCK_CPU.ncd CLOCK_CPU.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml CLOCK_CPU.twx CLOCK_CPU.ncd -o CLOCK_CPU.twr CLOCK_CPU.pcf 
+xst -intstyle ise -ifn "D:/CS/CPU/CLOCK_CPU.xst" -ofn "D:/CS/CPU/CLOCK_CPU.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx16-csg324-3 CLOCK_CPU.ngc CLOCK_CPU.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o CLOCK_CPU_map.ncd CLOCK_CPU.ngd CLOCK_CPU.pcf 
+par -w -intstyle ise -ol high -mt off CLOCK_CPU_map.ncd CLOCK_CPU.ncd CLOCK_CPU.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml CLOCK_CPU.twx CLOCK_CPU.ncd -o CLOCK_CPU.twr CLOCK_CPU.pcf 
+xst -intstyle ise -ifn "D:/CS/CPU/CLOCK_CPU.xst" -ofn "D:/CS/CPU/CLOCK_CPU.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx16-csg324-3 CLOCK_CPU.ngc CLOCK_CPU.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o CLOCK_CPU_map.ncd CLOCK_CPU.ngd CLOCK_CPU.pcf 
+par -w -intstyle ise -ol high -mt off CLOCK_CPU_map.ncd CLOCK_CPU.ncd CLOCK_CPU.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml CLOCK_CPU.twx CLOCK_CPU.ncd -o CLOCK_CPU.twr CLOCK_CPU.pcf 
+xst -intstyle ise -ifn "D:/CS/CPU/CLOCK_CPU.xst" -ofn "D:/CS/CPU/CLOCK_CPU.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx16-csg324-3 CLOCK_CPU.ngc CLOCK_CPU.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o CLOCK_CPU_map.ncd CLOCK_CPU.ngd CLOCK_CPU.pcf 
+par -w -intstyle ise -ol high -mt off CLOCK_CPU_map.ncd CLOCK_CPU.ncd CLOCK_CPU.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml CLOCK_CPU.twx CLOCK_CPU.ncd -o CLOCK_CPU.twr CLOCK_CPU.pcf 
+xst -intstyle ise -ifn "D:/CS/CPU/CLOCK_CPU.xst" -ofn "D:/CS/CPU/CLOCK_CPU.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx16-csg324-3 CLOCK_CPU.ngc CLOCK_CPU.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o CLOCK_CPU_map.ncd CLOCK_CPU.ngd CLOCK_CPU.pcf 
+par -w -intstyle ise -ol high -mt off CLOCK_CPU_map.ncd CLOCK_CPU.ncd CLOCK_CPU.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml CLOCK_CPU.twx CLOCK_CPU.ncd -o CLOCK_CPU.twr CLOCK_CPU.pcf 
+xst -intstyle ise -ifn "D:/CS/CPU/CLOCK_CPU.xst" -ofn "D:/CS/CPU/CLOCK_CPU.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx16-csg324-3 CLOCK_CPU.ngc CLOCK_CPU.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o CLOCK_CPU_map.ncd CLOCK_CPU.ngd CLOCK_CPU.pcf 
+par -w -intstyle ise -ol high -mt off CLOCK_CPU_map.ncd CLOCK_CPU.ncd CLOCK_CPU.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml CLOCK_CPU.twx CLOCK_CPU.ncd -o CLOCK_CPU.twr CLOCK_CPU.pcf 
+xst -intstyle ise -ifn "D:/CS/CPU/CLOCK_CPU.xst" -ofn "D:/CS/CPU/CLOCK_CPU.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx16-csg324-3 CLOCK_CPU.ngc CLOCK_CPU.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o CLOCK_CPU_map.ncd CLOCK_CPU.ngd CLOCK_CPU.pcf 
+par -w -intstyle ise -ol high -mt off CLOCK_CPU_map.ncd CLOCK_CPU.ncd CLOCK_CPU.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml CLOCK_CPU.twx CLOCK_CPU.ncd -o CLOCK_CPU.twr CLOCK_CPU.pcf 
+xst -intstyle ise -ifn "D:/CS/CPU/CLOCK_CPU.xst" -ofn "D:/CS/CPU/CLOCK_CPU.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx16-csg324-3 CLOCK_CPU.ngc CLOCK_CPU.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o CLOCK_CPU_map.ncd CLOCK_CPU.ngd CLOCK_CPU.pcf 
+par -w -intstyle ise -ol high -mt off CLOCK_CPU_map.ncd CLOCK_CPU.ncd CLOCK_CPU.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml CLOCK_CPU.twx CLOCK_CPU.ncd -o CLOCK_CPU.twr CLOCK_CPU.pcf 
+xst -intstyle ise -ifn "D:/CS/CPU/CLOCK_CPU.xst" -ofn "D:/CS/CPU/CLOCK_CPU.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx16-csg324-3 CLOCK_CPU.ngc CLOCK_CPU.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o CLOCK_CPU_map.ncd CLOCK_CPU.ngd CLOCK_CPU.pcf 
+par -w -intstyle ise -ol high -mt off CLOCK_CPU_map.ncd CLOCK_CPU.ncd CLOCK_CPU.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml CLOCK_CPU.twx CLOCK_CPU.ncd -o CLOCK_CPU.twr CLOCK_CPU.pcf 
+xst -intstyle ise -ifn "D:/CS/CPU/CLOCK_CPU.xst" -ofn "D:/CS/CPU/CLOCK_CPU.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx16-csg324-3 CLOCK_CPU.ngc CLOCK_CPU.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o CLOCK_CPU_map.ncd CLOCK_CPU.ngd CLOCK_CPU.pcf 
+par -w -intstyle ise -ol high -mt off CLOCK_CPU_map.ncd CLOCK_CPU.ncd CLOCK_CPU.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml CLOCK_CPU.twx CLOCK_CPU.ncd -o CLOCK_CPU.twr CLOCK_CPU.pcf 

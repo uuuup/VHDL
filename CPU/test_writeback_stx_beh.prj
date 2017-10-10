@@ -1,0 +1,2 @@
+vhdl isim_temp "writeback.vhd"
+vhdl isim_temp "test_writeback.vhd"

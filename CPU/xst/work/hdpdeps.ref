@@ -1,0 +1,33 @@
+V3 27
+FL D:/CS/CPU/CLOCK_CPU.vhd 2017/07/21.20:20:36 P.20131013
+EN work/CLOCK_CPU 1501055704 FL D:/CS/CPU/CLOCK_CPU.vhd PB ieee/std_logic_1164 1381692176
+AR work/CLOCK_CPU/Behavioral 1501055705 \
+      FL D:/CS/CPU/CLOCK_CPU.vhd EN work/CLOCK_CPU 1501055704
+FL D:/CS/CPU/compute.vhd 2017/07/26.09:49:24 P.20131013
+EN work/compute 1501055708 FL D:/CS/CPU/compute.vhd PB ieee/std_logic_1164 1381692176 \
+      PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/compute/Behavioral 1501055709 \
+      FL D:/CS/CPU/compute.vhd EN work/compute 1501055708
+FL D:/CS/CPU/CPU.vhd 2017/07/24.11:16:51 P.20131013
+EN work/CPU 1501055716 FL D:/CS/CPU/CPU.vhd PB ieee/std_logic_1164 1381692176
+AR work/CPU/Behavioral 1501055717 \
+      FL D:/CS/CPU/CPU.vhd EN work/CPU 1501055716 CP CLOCK_CPU CP GETIR CP COMPUTE \
+      CP MEMORY CP writeback CP memcontrl
+FL D:/CS/CPU/GETIR.vhd 2017/07/20.09:02:06 P.20131013
+EN work/GETIR 1501055706 FL D:/CS/CPU/GETIR.vhd PB ieee/std_logic_1164 1381692176 \
+      PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/GETIR/Behavioral 1501055707 \
+      FL D:/CS/CPU/GETIR.vhd EN work/GETIR 1501055706
+FL D:/CS/CPU/memcontrl.vhd 2017/07/20.11:02:27 P.20131013
+EN work/memcontrl 1501055714 FL D:/CS/CPU/memcontrl.vhd PB ieee/std_logic_1164 1381692176
+AR work/memcontrl/Behavioral 1501055715 \
+      FL D:/CS/CPU/memcontrl.vhd EN work/memcontrl 1501055714
+FL D:/CS/CPU/memory.vhd 2017/07/19.21:28:42 P.20131013
+EN work/memory 1501055710 FL D:/CS/CPU/memory.vhd PB ieee/std_logic_1164 1381692176
+AR work/memory/Behavioral 1501055711 \
+      FL D:/CS/CPU/memory.vhd EN work/memory 1501055710
+FL D:/CS/CPU/writeback.vhd 2017/07/26.09:17:43 P.20131013
+EN work/writeback 1501055712 FL D:/CS/CPU/writeback.vhd PB ieee/std_logic_1164 1381692176 \
+      PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/writeback/Behavioral 1501055713 \
+      FL D:/CS/CPU/writeback.vhd EN work/writeback 1501055712

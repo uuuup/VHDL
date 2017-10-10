@@ -1,0 +1,376 @@
+--------------------------------------------------------------------------------
+Release 14.7 Trace  (nt)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+C:\Xilinx\14.7\ISE_DS\ISE\bin\nt\unwrapped\trce.exe -intstyle ise -v 3 -s 4 -n
+3 -fastpaths -xml CPU.twx CPU.ncd -o CPU.twr CPU.pcf -ucf CPU.ucf
+
+Design file:              CPU.ncd
+Physical constraint file: CPU.pcf
+Device,package,speed:     xc3s500e,pq208,-4 (PRODUCTION 1.27 2013-10-13)
+Report level:             verbose report
+
+Environment Variable      Effect 
+--------------------      ------ 
+NONE                      No environment variables were set
+--------------------------------------------------------------------------------
+
+INFO:Timing:2698 - No timing constraints found, doing default enumeration.
+INFO:Timing:3412 - To improve timing, see the Timing Closure User Guide (UG612).
+INFO:Timing:2752 - To get complete path coverage, use the unconstrained paths 
+   option. All paths that are not constrained will be reported in the 
+   unconstrained paths section(s) of the report.
+INFO:Timing:3339 - The clock-to-out numbers in this timing report are based on 
+   a 50 Ohm transmission line loading model.  For the details of this model, 
+   and for more information on accounting for different loading conditions, 
+   please see the device datasheet.
+INFO:Timing:3390 - This architecture does not support a default System Jitter 
+   value, please add SYSTEM_JITTER constraint to the UCF to modify the Clock 
+   Uncertainty calculation.
+INFO:Timing:3389 - This architecture does not support 'Discrete Jitter' and 
+   'Phase Error' calculations, these terms will be zero in the Clock 
+   Uncertainty calculation.  Please make appropriate modification to 
+   SYSTEM_JITTER to account for the unsupported Discrete Jitter and Phase 
+   Error.
+
+
+
+Data Sheet report:
+-----------------
+All values displayed in nanoseconds (ns)
+
+Setup/Hold to clock reset
+------------+------------+------------+------------------+--------+
+            |Max Setup to|Max Hold to |                  | Clock  |
+Source      | clk (edge) | clk (edge) |Internal Clock(s) | Phase  |
+------------+------------+------------+------------------+--------+
+iodbin<0>   |   -0.510(F)|   10.972(F)|U3/Aluout_not0001 |   0.000|
+iodbin<1>   |   -0.734(F)|   11.286(F)|U3/Aluout_not0001 |   0.000|
+iodbin<2>   |   -1.365(F)|   11.661(F)|U3/Aluout_not0001 |   0.000|
+iodbin<3>   |   -1.609(F)|   11.344(F)|U3/Aluout_not0001 |   0.000|
+iodbin<4>   |   -1.168(F)|   11.118(F)|U3/Aluout_not0001 |   0.000|
+iodbin<5>   |    0.711(F)|   10.785(F)|U3/Aluout_not0001 |   0.000|
+iodbin<6>   |   -0.225(F)|   10.938(F)|U3/Aluout_not0001 |   0.000|
+iodbin<7>   |    0.097(F)|   10.500(F)|U3/Aluout_not0001 |   0.000|
+------------+------------+------------+------------------+--------+
+
+Clock clk to Pad
+------------+------------+------------------+--------+
+            | clk (edge) |                  | Clock  |
+Destination |   to PAD   |Internal Clock(s) | Phase  |
+------------+------------+------------------+--------+
+dbus<0>     |   10.797(R)|clk_BUFGP         |   0.000|
+dbus<1>     |   11.348(R)|clk_BUFGP         |   0.000|
+dbus<2>     |   10.800(R)|clk_BUFGP         |   0.000|
+dbus<3>     |   11.639(R)|clk_BUFGP         |   0.000|
+dbus<4>     |   11.085(R)|clk_BUFGP         |   0.000|
+dbus<5>     |   11.921(R)|clk_BUFGP         |   0.000|
+dbus<6>     |   11.361(R)|clk_BUFGP         |   0.000|
+dbus<7>     |   11.918(R)|clk_BUFGP         |   0.000|
+dbus<8>     |   10.968(R)|clk_BUFGP         |   0.000|
+dbus<9>     |   11.775(R)|clk_BUFGP         |   0.000|
+dbus<10>    |   10.964(R)|clk_BUFGP         |   0.000|
+dbus<11>    |   11.232(R)|clk_BUFGP         |   0.000|
+dbus<12>    |   11.771(R)|clk_BUFGP         |   0.000|
+dbus<13>    |   11.494(R)|clk_BUFGP         |   0.000|
+dbus<14>    |   12.022(R)|clk_BUFGP         |   0.000|
+dbus<15>    |   11.754(R)|clk_BUFGP         |   0.000|
+iodbout<0>  |   16.578(R)|clk_BUFGP         |   0.000|
+iodbout<1>  |   14.558(R)|clk_BUFGP         |   0.000|
+iodbout<2>  |   13.001(R)|clk_BUFGP         |   0.000|
+iodbout<3>  |   13.232(R)|clk_BUFGP         |   0.000|
+iodbout<4>  |   12.549(R)|clk_BUFGP         |   0.000|
+iodbout<5>  |   12.635(R)|clk_BUFGP         |   0.000|
+iodbout<6>  |   12.497(R)|clk_BUFGP         |   0.000|
+iodbout<7>  |   12.898(R)|clk_BUFGP         |   0.000|
+nBHE        |   11.760(R)|clk_BUFGP         |   0.000|
+nBLE        |   12.271(R)|clk_BUFGP         |   0.000|
+nMREQ       |   11.984(R)|clk_BUFGP         |   0.000|
+nPRD        |   14.288(R)|clk_BUFGP         |   0.000|
+nPREQ       |   12.351(R)|clk_BUFGP         |   0.000|
+nPWR        |   15.358(R)|clk_BUFGP         |   0.000|
+nRD         |   12.757(R)|clk_BUFGP         |   0.000|
+nWR         |   11.983(R)|clk_BUFGP         |   0.000|
+t00         |    8.880(R)|clk_BUFGP         |   0.000|
+t10         |    9.036(R)|clk_BUFGP         |   0.000|
+t20         |    9.331(R)|clk_BUFGP         |   0.000|
+t30         |   10.294(R)|clk_BUFGP         |   0.000|
+------------+------------+------------------+--------+
+
+Clock reset to Pad
+------------+------------+---------------------+--------+
+            | clk (edge) |                     | Clock  |
+Destination |   to PAD   |Internal Clock(s)    | Phase  |
+------------+------------+---------------------+--------+
+Regout0<0>  |   14.161(R)|U3/myreg_0_not0001   |   0.000|
+Regout0<1>  |   13.979(R)|U3/myreg_0_not0001   |   0.000|
+Regout0<2>  |   14.036(R)|U3/myreg_0_not0001   |   0.000|
+Regout0<3>  |   14.704(R)|U3/myreg_0_not0001   |   0.000|
+Regout0<4>  |   15.188(R)|U3/myreg_0_not0001   |   0.000|
+Regout0<5>  |   15.012(R)|U3/myreg_0_not0001   |   0.000|
+Regout0<6>  |   15.146(R)|U3/myreg_0_not0001   |   0.000|
+Regout0<7>  |   15.568(R)|U3/myreg_0_not0001   |   0.000|
+Regout1<0>  |   14.116(F)|U3/myreg_1_cmp_eq0000|   0.000|
+Regout1<1>  |   13.947(F)|U3/myreg_1_cmp_eq0000|   0.000|
+Regout1<2>  |   14.766(F)|U3/myreg_1_cmp_eq0000|   0.000|
+Regout1<3>  |   16.610(F)|U3/myreg_1_cmp_eq0000|   0.000|
+Regout1<4>  |   15.798(F)|U3/myreg_1_cmp_eq0000|   0.000|
+Regout1<5>  |   15.729(F)|U3/myreg_1_cmp_eq0000|   0.000|
+Regout1<6>  |   15.487(F)|U3/myreg_1_cmp_eq0000|   0.000|
+Regout1<7>  |   16.797(F)|U3/myreg_1_cmp_eq0000|   0.000|
+Regout2<0>  |   13.443(F)|U3/myreg_2_cmp_eq0000|   0.000|
+Regout2<1>  |   14.380(F)|U3/myreg_2_cmp_eq0000|   0.000|
+Regout2<2>  |   14.689(F)|U3/myreg_2_cmp_eq0000|   0.000|
+Regout2<3>  |   14.034(F)|U3/myreg_2_cmp_eq0000|   0.000|
+Regout2<4>  |   14.297(F)|U3/myreg_2_cmp_eq0000|   0.000|
+Regout2<5>  |   14.129(F)|U3/myreg_2_cmp_eq0000|   0.000|
+Regout2<6>  |   14.229(F)|U3/myreg_2_cmp_eq0000|   0.000|
+Regout2<7>  |   13.929(F)|U3/myreg_2_cmp_eq0000|   0.000|
+Regout3<0>  |   14.424(F)|U3/myreg_3_cmp_eq0000|   0.000|
+Regout3<1>  |   14.750(F)|U3/myreg_3_cmp_eq0000|   0.000|
+Regout3<2>  |   14.695(F)|U3/myreg_3_cmp_eq0000|   0.000|
+Regout3<3>  |   14.681(F)|U3/myreg_3_cmp_eq0000|   0.000|
+Regout3<4>  |   15.157(F)|U3/myreg_3_cmp_eq0000|   0.000|
+Regout3<5>  |   15.069(F)|U3/myreg_3_cmp_eq0000|   0.000|
+Regout3<6>  |   15.985(F)|U3/myreg_3_cmp_eq0000|   0.000|
+Regout3<7>  |   14.845(F)|U3/myreg_3_cmp_eq0000|   0.000|
+Regout4<0>  |   14.214(F)|U3/myreg_4_cmp_eq0000|   0.000|
+Regout4<1>  |   14.137(F)|U3/myreg_4_cmp_eq0000|   0.000|
+Regout4<2>  |   15.079(F)|U3/myreg_4_cmp_eq0000|   0.000|
+Regout4<3>  |   14.430(F)|U3/myreg_4_cmp_eq0000|   0.000|
+Regout4<4>  |   14.711(F)|U3/myreg_4_cmp_eq0000|   0.000|
+Regout4<5>  |   14.793(F)|U3/myreg_4_cmp_eq0000|   0.000|
+Regout4<6>  |   15.473(F)|U3/myreg_4_cmp_eq0000|   0.000|
+Regout4<7>  |   14.904(F)|U3/myreg_4_cmp_eq0000|   0.000|
+Regout5<0>  |   13.421(F)|U3/myreg_5_cmp_eq0000|   0.000|
+Regout5<1>  |   13.353(F)|U3/myreg_5_cmp_eq0000|   0.000|
+Regout5<2>  |   12.922(F)|U3/myreg_5_cmp_eq0000|   0.000|
+Regout5<3>  |   12.519(F)|U3/myreg_5_cmp_eq0000|   0.000|
+Regout5<4>  |   12.678(F)|U3/myreg_5_cmp_eq0000|   0.000|
+Regout5<5>  |   12.483(F)|U3/myreg_5_cmp_eq0000|   0.000|
+Regout5<6>  |   12.193(F)|U3/myreg_5_cmp_eq0000|   0.000|
+Regout5<7>  |   12.777(F)|U3/myreg_5_cmp_eq0000|   0.000|
+Regout6<0>  |   13.250(F)|U3/myreg_6_cmp_eq0000|   0.000|
+Regout6<1>  |   13.520(F)|U3/myreg_6_cmp_eq0000|   0.000|
+Regout6<2>  |   13.889(F)|U3/myreg_6_cmp_eq0000|   0.000|
+Regout6<3>  |   13.727(F)|U3/myreg_6_cmp_eq0000|   0.000|
+Regout6<4>  |   13.676(F)|U3/myreg_6_cmp_eq0000|   0.000|
+Regout6<5>  |   13.786(F)|U3/myreg_6_cmp_eq0000|   0.000|
+Regout6<6>  |   13.503(F)|U3/myreg_6_cmp_eq0000|   0.000|
+Regout6<7>  |   13.429(F)|U3/myreg_6_cmp_eq0000|   0.000|
+Regout7<0>  |   16.160(F)|U3/myreg_7_cmp_eq0000|   0.000|
+Regout7<1>  |   15.898(F)|U3/myreg_7_cmp_eq0000|   0.000|
+Regout7<2>  |   16.125(F)|U3/myreg_7_cmp_eq0000|   0.000|
+Regout7<3>  |   15.812(F)|U3/myreg_7_cmp_eq0000|   0.000|
+Regout7<4>  |   16.422(F)|U3/myreg_7_cmp_eq0000|   0.000|
+Regout7<5>  |   16.158(F)|U3/myreg_7_cmp_eq0000|   0.000|
+Regout7<6>  |   16.419(F)|U3/myreg_7_cmp_eq0000|   0.000|
+Regout7<7>  |   15.908(F)|U3/myreg_7_cmp_eq0000|   0.000|
+dbus<0>     |   17.816(F)|U3/Aluout_not0001    |   0.000|
+dbus<1>     |   17.831(F)|U3/Aluout_not0001    |   0.000|
+dbus<2>     |   17.831(F)|U3/Aluout_not0001    |   0.000|
+dbus<3>     |   18.641(F)|U3/Aluout_not0001    |   0.000|
+dbus<4>     |   18.641(F)|U3/Aluout_not0001    |   0.000|
+dbus<5>     |   17.917(F)|U3/Aluout_not0001    |   0.000|
+dbus<6>     |   17.917(F)|U3/Aluout_not0001    |   0.000|
+dbus<7>     |   17.619(F)|U3/Aluout_not0001    |   0.000|
+ioab<0>     |   13.156(F)|U3/IOAB_or0000       |   0.000|
+ioab<1>     |   14.630(F)|U3/IOAB_or0000       |   0.000|
+iodbout<0>  |   19.994(R)|U3/myreg_0_not0001   |   0.000|
+            |   19.215(F)|U3/myreg_1_cmp_eq0000|   0.000|
+            |   18.322(F)|U3/myreg_2_cmp_eq0000|   0.000|
+            |   19.192(F)|U3/myreg_3_cmp_eq0000|   0.000|
+            |   19.443(F)|U3/myreg_4_cmp_eq0000|   0.000|
+            |   18.064(F)|U3/myreg_5_cmp_eq0000|   0.000|
+            |   18.308(F)|U3/myreg_6_cmp_eq0000|   0.000|
+            |   19.954(F)|U3/myreg_7_cmp_eq0000|   0.000|
+iodbout<1>  |   17.181(F)|U3/myreg_1_cmp_eq0000|   0.000|
+            |   16.668(F)|U3/myreg_2_cmp_eq0000|   0.000|
+            |   17.799(F)|U3/myreg_3_cmp_eq0000|   0.000|
+            |   18.256(F)|U3/myreg_4_cmp_eq0000|   0.000|
+            |   16.393(F)|U3/myreg_5_cmp_eq0000|   0.000|
+            |   16.877(F)|U3/myreg_6_cmp_eq0000|   0.000|
+            |   18.153(F)|U3/myreg_7_cmp_eq0000|   0.000|
+            |   18.286(R)|U3/myreg_0_not0001   |   0.000|
+iodbout<2>  |   16.970(F)|U3/myreg_1_cmp_eq0000|   0.000|
+            |   15.844(F)|U3/myreg_2_cmp_eq0000|   0.000|
+            |   17.922(F)|U3/myreg_3_cmp_eq0000|   0.000|
+            |   17.424(F)|U3/myreg_4_cmp_eq0000|   0.000|
+            |   15.899(F)|U3/myreg_5_cmp_eq0000|   0.000|
+            |   16.055(F)|U3/myreg_6_cmp_eq0000|   0.000|
+            |   17.883(F)|U3/myreg_7_cmp_eq0000|   0.000|
+            |   17.382(R)|U3/myreg_0_not0001   |   0.000|
+iodbout<3>  |   17.020(F)|U3/myreg_1_cmp_eq0000|   0.000|
+            |   16.314(F)|U3/myreg_2_cmp_eq0000|   0.000|
+            |   18.229(F)|U3/myreg_3_cmp_eq0000|   0.000|
+            |   17.245(F)|U3/myreg_4_cmp_eq0000|   0.000|
+            |   16.074(F)|U3/myreg_5_cmp_eq0000|   0.000|
+            |   16.373(F)|U3/myreg_6_cmp_eq0000|   0.000|
+            |   18.007(F)|U3/myreg_7_cmp_eq0000|   0.000|
+            |   17.595(R)|U3/myreg_0_not0001   |   0.000|
+iodbout<4>  |   16.772(R)|U3/myreg_0_not0001   |   0.000|
+            |   16.275(F)|U3/myreg_1_cmp_eq0000|   0.000|
+            |   15.569(F)|U3/myreg_2_cmp_eq0000|   0.000|
+            |   17.409(F)|U3/myreg_3_cmp_eq0000|   0.000|
+            |   16.909(F)|U3/myreg_4_cmp_eq0000|   0.000|
+            |   15.052(F)|U3/myreg_5_cmp_eq0000|   0.000|
+            |   15.957(F)|U3/myreg_6_cmp_eq0000|   0.000|
+            |   17.229(F)|U3/myreg_7_cmp_eq0000|   0.000|
+iodbout<5>  |   16.444(F)|U3/myreg_1_cmp_eq0000|   0.000|
+            |   15.694(F)|U3/myreg_2_cmp_eq0000|   0.000|
+            |   17.091(F)|U3/myreg_3_cmp_eq0000|   0.000|
+            |   16.820(F)|U3/myreg_4_cmp_eq0000|   0.000|
+            |   15.087(F)|U3/myreg_5_cmp_eq0000|   0.000|
+            |   15.767(F)|U3/myreg_6_cmp_eq0000|   0.000|
+            |   17.467(F)|U3/myreg_7_cmp_eq0000|   0.000|
+            |   17.198(R)|U3/myreg_0_not0001   |   0.000|
+iodbout<6>  |   16.110(F)|U3/myreg_1_cmp_eq0000|   0.000|
+            |   15.927(F)|U3/myreg_2_cmp_eq0000|   0.000|
+            |   16.722(F)|U3/myreg_3_cmp_eq0000|   0.000|
+            |   16.623(F)|U3/myreg_4_cmp_eq0000|   0.000|
+            |   14.744(F)|U3/myreg_5_cmp_eq0000|   0.000|
+            |   15.280(F)|U3/myreg_6_cmp_eq0000|   0.000|
+            |   16.659(F)|U3/myreg_7_cmp_eq0000|   0.000|
+            |   16.406(R)|U3/myreg_0_not0001   |   0.000|
+iodbout<7>  |   17.590(F)|U3/myreg_1_cmp_eq0000|   0.000|
+            |   17.007(F)|U3/myreg_2_cmp_eq0000|   0.000|
+            |   17.755(F)|U3/myreg_3_cmp_eq0000|   0.000|
+            |   18.528(F)|U3/myreg_4_cmp_eq0000|   0.000|
+            |   17.020(F)|U3/myreg_5_cmp_eq0000|   0.000|
+            |   17.343(F)|U3/myreg_6_cmp_eq0000|   0.000|
+            |   18.471(F)|U3/myreg_7_cmp_eq0000|   0.000|
+            |   18.481(R)|U3/myreg_0_not0001   |   0.000|
+------------+------------+---------------------+--------+
+
+Clock to Setup on destination clock clk
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+clk            |    9.036|         |         |         |
+reset          |    2.178|    2.178|         |         |
+---------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock reset
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+clk            |    6.347|         |   11.727|         |
+reset          |    8.196|    8.196|   14.565|   14.565|
+---------------+---------+---------+---------+---------+
+
+Pad to Pad
+---------------+---------------+---------+
+Source Pad     |Destination Pad|  Delay  |
+---------------+---------------+---------+
+reset          |Regout0<0>     |   10.059|
+reset          |Regout0<1>     |   10.213|
+reset          |Regout0<2>     |   10.739|
+reset          |Regout0<3>     |   11.207|
+reset          |Regout0<4>     |   11.473|
+reset          |Regout0<5>     |   11.640|
+reset          |Regout0<6>     |   11.650|
+reset          |Regout0<7>     |   12.176|
+reset          |Regout1<0>     |    8.581|
+reset          |Regout1<1>     |    8.738|
+reset          |Regout1<2>     |    9.114|
+reset          |Regout1<3>     |   13.285|
+reset          |Regout1<4>     |   12.155|
+reset          |Regout1<5>     |   13.577|
+reset          |Regout1<6>     |   12.570|
+reset          |Regout1<7>     |   10.664|
+reset          |Regout2<0>     |    9.154|
+reset          |Regout2<1>     |    9.705|
+reset          |Regout2<2>     |   10.257|
+reset          |Regout2<3>     |    9.490|
+reset          |Regout2<4>     |    9.694|
+reset          |Regout2<5>     |    9.749|
+reset          |Regout2<6>     |   10.229|
+reset          |Regout2<7>     |   10.295|
+reset          |Regout3<0>     |    7.693|
+reset          |Regout3<1>     |    8.496|
+reset          |Regout3<2>     |    8.052|
+reset          |Regout3<3>     |    8.244|
+reset          |Regout3<4>     |    8.271|
+reset          |Regout3<5>     |    8.232|
+reset          |Regout3<6>     |    9.296|
+reset          |Regout3<7>     |   10.670|
+reset          |Regout4<0>     |    9.087|
+reset          |Regout4<1>     |    9.086|
+reset          |Regout4<2>     |    9.788|
+reset          |Regout4<3>     |    9.268|
+reset          |Regout4<4>     |    9.832|
+reset          |Regout4<5>     |    9.423|
+reset          |Regout4<6>     |    9.478|
+reset          |Regout4<7>     |    9.572|
+reset          |Regout5<0>     |    7.719|
+reset          |Regout5<1>     |    7.310|
+reset          |Regout5<2>     |    6.980|
+reset          |Regout5<3>     |    7.260|
+reset          |Regout5<4>     |    7.348|
+reset          |Regout5<5>     |    7.722|
+reset          |Regout5<6>     |    7.248|
+reset          |Regout5<7>     |    7.358|
+reset          |Regout6<0>     |    8.887|
+reset          |Regout6<1>     |    9.434|
+reset          |Regout6<2>     |    9.434|
+reset          |Regout6<3>     |    8.146|
+reset          |Regout6<4>     |    7.811|
+reset          |Regout6<5>     |    7.900|
+reset          |Regout6<6>     |    7.887|
+reset          |Regout6<7>     |    7.537|
+reset          |Regout7<0>     |   12.320|
+reset          |Regout7<1>     |   13.102|
+reset          |Regout7<2>     |    9.890|
+reset          |Regout7<3>     |    9.721|
+reset          |Regout7<4>     |    9.721|
+reset          |Regout7<5>     |    9.341|
+reset          |Regout7<6>     |   10.248|
+reset          |Regout7<7>     |    9.634|
+reset          |dbus<0>        |   11.607|
+reset          |dbus<1>        |   12.158|
+reset          |dbus<2>        |   11.610|
+reset          |dbus<3>        |   12.449|
+reset          |dbus<4>        |   11.895|
+reset          |dbus<5>        |   12.731|
+reset          |dbus<6>        |   12.171|
+reset          |dbus<7>        |   12.728|
+reset          |dbus<8>        |   11.778|
+reset          |dbus<9>        |   12.585|
+reset          |dbus<10>       |   11.774|
+reset          |dbus<11>       |   12.042|
+reset          |dbus<12>       |   12.581|
+reset          |dbus<13>       |   12.304|
+reset          |dbus<14>       |   12.832|
+reset          |dbus<15>       |   12.564|
+reset          |iodbout<0>     |   18.759|
+reset          |iodbout<1>     |   16.739|
+reset          |iodbout<2>     |   15.182|
+reset          |iodbout<3>     |   15.413|
+reset          |iodbout<4>     |   14.730|
+reset          |iodbout<5>     |   14.816|
+reset          |iodbout<6>     |   14.678|
+reset          |iodbout<7>     |   15.079|
+reset          |nBHE           |   15.652|
+reset          |nBLE           |   16.163|
+reset          |nMREQ          |   15.876|
+reset          |nPRD           |   16.469|
+reset          |nPREQ          |   10.243|
+reset          |nPWR           |   17.539|
+reset          |nRD            |   15.187|
+reset          |nWR            |   16.179|
+---------------+---------------+---------+
+
+
+Analysis completed Wed Jul 26 15:55:43 2017 
+--------------------------------------------------------------------------------
+
+Trace Settings:
+-------------------------
+Trace Settings 
+
+Peak Memory Usage: 144 MB
+
+
+

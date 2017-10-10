@@ -1,0 +1,7 @@
+vhdl work "D:\CS\CPU\writeback.vhd"
+vhdl work "D:\CS\CPU\memory.vhd"
+vhdl work "D:\CS\CPU\memcontrl.vhd"
+vhdl work "D:\CS\CPU\GETIR.vhd"
+vhdl work "D:\CS\CPU\compute.vhd"
+vhdl work "D:\CS\CPU\CLOCK_CPU.vhd"
+vhdl work "D:\CS\CPU\CPU.vhd"

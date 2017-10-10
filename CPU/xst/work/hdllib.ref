@@ -1,0 +1,14 @@
+EN writeback NULL D:/CS/CPU/writeback.vhd sub00/vhpl08 1501055712
+AR cpu behavioral D:/CS/CPU/CPU.vhd sub00/vhpl13 1501055717
+EN getir NULL D:/CS/CPU/GETIR.vhd sub00/vhpl02 1501055706
+EN cpu NULL D:/CS/CPU/CPU.vhd sub00/vhpl12 1501055716
+EN compute NULL D:/CS/CPU/compute.vhd sub00/vhpl04 1501055708
+EN memory NULL D:/CS/CPU/memory.vhd sub00/vhpl06 1501055710
+AR getir behavioral D:/CS/CPU/GETIR.vhd sub00/vhpl03 1501055707
+AR memory behavioral D:/CS/CPU/memory.vhd sub00/vhpl07 1501055711
+AR compute behavioral D:/CS/CPU/compute.vhd sub00/vhpl05 1501055709
+EN clock_cpu NULL D:/CS/CPU/CLOCK_CPU.vhd sub00/vhpl00 1501055704
+EN memcontrl NULL D:/CS/CPU/memcontrl.vhd sub00/vhpl10 1501055714
+AR memcontrl behavioral D:/CS/CPU/memcontrl.vhd sub00/vhpl11 1501055715
+AR writeback behavioral D:/CS/CPU/writeback.vhd sub00/vhpl09 1501055713
+AR clock_cpu behavioral D:/CS/CPU/CLOCK_CPU.vhd sub00/vhpl01 1501055705
